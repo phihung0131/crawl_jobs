@@ -1,17 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-import hashlib  
 
-BOT_TOKEN = '8155238330:AAH2t2i3zk7v8yzGnP73bw0PiJTmpgI-Ovw'  # Thay bằng token bot của bạn
-CHAT_ID = '5713801301'      # Thay bằng chat_id của bạn
+BOT_TOKEN = '8155238330:AAH2t2i3zk7v8yzGnP73bw0PiJTmpgI-Ovw' 
+CHAT_ID = '5713801301'   
 
 # Hash ngày thành chuỗi MD5
 today = datetime.now().strftime('%d-%m-%Y')
-hashed_today = hashlib.md5(today.encode()).hexdigest()
-
-# Chuyển hash thành mã màu hex
-color_code = f"#{hashed_today[:6]}"  # Lấy 6 ký tự đầu tiên của hash và biến thành mã màu
 
 # Hàm gửi tin nhắn Telegram với màu nền
 def send_telegram_message(bot_token, chat_id, message):
@@ -20,12 +15,6 @@ def send_telegram_message(bot_token, chat_id, message):
         'chat_id': chat_id,
         'text': message,
         'parse_mode': 'HTML',
-        'reply_markup': {
-            'inline_keyboard': [
-                [{'text': 'Job Alerts', 'callback_data': 'job_alerts'}]
-            ]
-        },
-        'background_color': color_code  # Đặt màu nền cho tin nhắn
     }
     requests.post(url, data=payload)
 
@@ -56,22 +45,22 @@ def crawl_vng_jobs():
 # Hàm crawl công việc Zalo
 def crawl_zalo_jobs():
     all_titles_zalo = []
-    for page in range(1, 11):  # Crawl từ trang 1 đến 10
-        url = f'https://zalo.careers/job-list?teams=engineering&page={page}&locations=ho-chi-minh'
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
+    # for page in range(1, 11):  # Crawl từ trang 1 đến 10
+    #     url = f'https://zalo.careers/job-list?teams=engineering&page={page}&locations=ho-chi-minh'
+    #     response = requests.get(url)
+    #     soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Tìm tất cả thẻ <h2> có class="text line-clamp-2"
-        job_titles = soup.find_all('h2', class_='text line-clamp-2')
+    #     # Tìm tất cả thẻ <h2> có class="text line-clamp-2"
+    #     job_titles = soup.find_all('h2', class_='text line-clamp-2')
 
-        for title in job_titles:
-            all_titles_zalo.append(f'• {title.get_text(strip=True)}')
+    #     for title in job_titles:
+    #         all_titles_zalo.append(f'• {title.get_text(strip=True)}')
 
     # Gộp danh sách thành 1 chuỗi cho Zalo
-    message_zalo = f"📢 <b>Danh sách job Zalo hôm nay ({today}):</b>\n" + '\n'.join(all_titles_zalo)
+    message_zalo = f"📢 <b>Danh sách job Zalo hôm nay ({today}):</b>\n" + 'https://zalo.careers/job-list?teams=engineering&page=1&locations=ho-chi-minh'
 
     # Gửi thông báo về Telegram cho Zalo
-    send_telegram_message(BOT_TOKEN, CHAT_ID, 'https://zalo.careers/job-list?teams=engineering&page=1&locations=ho-chi-minh')
+    send_telegram_message(BOT_TOKEN, CHAT_ID, message_zalo)
 
 # Hàm crawl công việc Grab
 def crawl_grab_jobs():
@@ -143,6 +132,6 @@ def crawl_nab_jobs():
 
 # # Gọi hàm để chạy
 # crawl_vng_jobs()
-# crawl_zalo_jobs()
+crawl_zalo_jobs()
 # crawl_grab_jobs()
-crawl_nab_jobs()
+# crawl_nab_jobs()

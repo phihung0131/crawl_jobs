@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 datetime hashlib  # Cài đặt các thư viện cần thiết
+          pip install requests beautifulsoup4 datetime  # Cài đặt các thư viện cần thiết
 
       - name: Run job crawler script
         run: python main.py  # Chạy script của bạn
