@@ -131,7 +131,7 @@ def crawl_nab_jobs():
     send_telegram_message(BOT_TOKEN, CHAT_ID, message_nab)
 
 # # Gọi hàm để chạy
-# crawl_vng_jobs()
+crawl_vng_jobs()
 crawl_zalo_jobs()
-# crawl_grab_jobs()
-# crawl_nab_jobs()
+crawl_grab_jobs()
+crawl_nab_jobs()
