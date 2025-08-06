@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 datetime  # Cài thư viện cần thiết
+          pip install requests beautifulsoup4 datetime aiohttp  # Cài thư viện cần thiết
 
       - name: Run job crawler script
         run: python main.py  # Chạy script chính
