@@ -2,7 +2,7 @@ name: Crawl Jobs and Send to Telegram
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Chạy mỗi 5 phút theo giờ UTC
+    - cron: '0 12 * * *'  # Chạy mỗi ngày lúc 3h sáng UTC
   workflow_dispatch:  # Cho phép chạy thủ công từ GitHub UI
 
 jobs:
