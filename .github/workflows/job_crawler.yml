@@ -2,25 +2,29 @@ name: Crawl Jobs and Send to Telegram
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Chạy mỗi ngày lúc 3h sáng UTC
-  workflow_dispatch:  # Cho phép chạy thủ công từ GitHub UI
+    - cron: '0 3 * * *'  # Chạy mỗi ngày lúc 3h sáng UTC
+  workflow_dispatch:       # Cho phép chạy thủ công từ GitHub UI
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest  # Chạy trên máy ảo Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2  # Lấy mã nguồn từ repository
+        uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v4  # Cài đặt môi trường Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Sử dụng Python 3.9
+          python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4 datetime aiohttp  # Cài thư viện cần thiết
+          pip install requests beautifulsoup4 datetime aiohttp playwright
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install --with-deps
 
       - name: Run job crawler script
-        run: python main.py  # Chạy script chính
+        run: python main.py
