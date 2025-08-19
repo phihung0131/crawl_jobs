@@ -29,8 +29,7 @@ async def crawl_zalo_jobs():
 
         await browser.close()
 
-    if (len(all_titles_zalo) > 0):
-        message_zalo = f"📢 <b><a href='https://zalo.careers/job-list?teams=engineering&page=1&locations=ho-chi-minh'>ZALO</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_zalo)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_zalo)
+    message_zalo = f"📢 <b><a href='https://zalo.careers/job-list?teams=engineering&page=1&locations=ho-chi-minh'>ZALO</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_zalo)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_zalo)
         
     print(f"Zalo: Found {len(all_titles_zalo)} jobs") 

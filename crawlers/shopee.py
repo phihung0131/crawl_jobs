@@ -25,7 +25,6 @@ async def crawl_shopee_jobs():
                 if not should_filter_job(job_title):
                     all_titles_shopee.append(f'• {job_title}')
 
-    if (len(all_titles_shopee) > 0):
-        message_shopee = f"📢 <b><a href='https://careers.shopee.vn/jobs?region_id=34&dept_id=&level=4,1,2&limit=50&offset=50'>Shopee</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_shopee)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_shopee)
+    message_shopee = f"📢 <b><a href='https://careers.shopee.vn/jobs?region_id=34&dept_id=&level=4,1,2&limit=50&offset=50'>Shopee</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_shopee)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_shopee)
     print(f"Shopee: Found {len(all_titles_shopee)} jobs") 

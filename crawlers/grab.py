@@ -18,7 +18,6 @@ async def crawl_grab_jobs():
             if not should_filter_job(title):
                 all_titles_grab.append(f'• {title}')
 
-    if (len(all_titles_grab) > 0):
-        message_grab = f"📢 <b><a href='https://www.grab.careers/en/jobs/?search=&team=Engineering&team=Internship&team=Technology+Solutions&country=Vietnam&pagesize=100#results'>GRAB</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_grab)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_grab)
+    message_grab = f"📢 <b><a href='https://www.grab.careers/en/jobs/?search=&team=Engineering&team=Internship&team=Technology+Solutions&country=Vietnam&pagesize=100#results'>GRAB</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_grab)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_grab)
     print(f"Grab: Found {len(all_titles_grab)} jobs") 

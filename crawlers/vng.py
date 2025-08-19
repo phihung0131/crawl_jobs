@@ -28,7 +28,6 @@ async def crawl_vng_jobs():
             if not should_filter_job(title):
                 all_titles_vng.append(f'• {title}')
 
-    if (len(all_titles_vng) > 0):   
-        message_vng = f"📢 <b><a href='https://career.vng.com.vn/tim-kiem-viec-lam?job_group=385%7C418&page=1'>VNG</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_vng)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_vng)
+    message_vng = f"📢 <b><a href='https://career.vng.com.vn/tim-kiem-viec-lam?job_group=385%7C418&page=1'>VNG</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_vng)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_vng)
     print(f"VNG: Found {len(all_titles_vng)} jobs") 

@@ -18,7 +18,6 @@ async def crawl_momo_jobs():
             if not should_filter_job(job_title):
                 all_titles_momo.append(f'• {job_title}')
 
-    if (len(all_titles_momo) > 0):
-        message_momo = f"📢 <b><a href='https://momo.careers/jobs-opening?location=PJL.0001&groups=DGM.0001&levelGroups=LEV.002%2CLEV.003%2CLEV.004%2CLEV.005%2CLEV.006%2CLEV.007%2CLEV.008%2CLEV.009%2CLEV.001%2CLEV.020%2CLEVEL.0022'>MoMo</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_momo)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_momo)
+    message_momo = f"📢 <b><a href='https://momo.careers/jobs-opening?location=PJL.0001&groups=DGM.0001&levelGroups=LEV.002%2CLEV.003%2CLEV.004%2CLEV.005%2CLEV.006%2CLEV.007%2CLEV.008%2CLEV.009%2CLEV.001%2CLEV.020%2CLEVEL.0022'>MoMo</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_momo)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_momo)
     print(f"MoMo: Found {len(all_titles_momo)} jobs") 

@@ -42,7 +42,6 @@ async def crawl_nab_jobs():
             if not should_filter_job(title):
                 all_titles_nab.append(f'• {title}')
 
-    if (len(all_titles_nab) > 0):
-        message_nab = f"📢 <b><a href='https://nab.wd3.myworkdayjobs.com/nab_careers?locationCountry=db69e8c8446c11de98360015c5e6daf6&locations=25e34c7b3e6410009a643b05986b0000&locations=2b5ebaf8c9281000c02f3491eccc0000&jobFamilyGroup=28c588c0cf7a100144e1f2afbffe0000'>NAB</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_nab)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_nab)
+    message_nab = f"📢 <b><a href='https://nab.wd3.myworkdayjobs.com/nab_careers?locationCountry=db69e8c8446c11de98360015c5e6daf6&locations=25e34c7b3e6410009a643b05986b0000&locations=2b5ebaf8c9281000c02f3491eccc0000&jobFamilyGroup=28c588c0cf7a100144e1f2afbffe0000'>NAB</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_nab)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_nab)
     print(f"NAB: Found {len(all_titles_nab)} jobs") 

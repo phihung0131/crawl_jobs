@@ -24,7 +24,6 @@ async def crawl_tymex_jobs():
             if not should_filter_job(job_title):
                 all_titles_tymex.append(f'• {job_title}')
     
-    if (len(all_titles_tymex) > 0):
-        message_tymex = f"📢 <b><a href='https://vietnam.tyme.com/#sec-career'>TymeX</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_tymex)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_tymex)
+    message_tymex = f"📢 <b><a href='https://vietnam.tyme.com/#sec-career'>TymeX</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_tymex)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_tymex)
     print(f"TymeX: Found {len(all_titles_tymex)} jobs") 

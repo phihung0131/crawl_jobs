@@ -24,7 +24,6 @@ async def crawl_saigon_tech_jobs():
     except Exception as e:
         print(f"Failed to load Saigon Technology jobs: {e}")
 
-    if (len(all_titles_saigon) > 0):
-        message_saigon = f"📢 <b><a href='https://careers.saigontechnology.com/opening-jobs?location=Ho%20Chi%20Minh&job_level=Fresher%2CJunior'>Saigon Technology</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_saigon)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_saigon)
+    message_saigon = f"📢 <b><a href='https://careers.saigontechnology.com/opening-jobs?location=Ho%20Chi%20Minh&job_level=Fresher%2CJunior'>Saigon Technology</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_saigon)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_saigon)
     print(f"Saigon Technology: Found {len(all_titles_saigon)} jobs") 

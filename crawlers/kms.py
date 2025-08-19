@@ -41,7 +41,6 @@ async def crawl_kms_jobs():
 
         await browser.close()
 
-    if (len(all_titles_kms) > 0):
-        message_kms = f"📢 <b><a href='{url}'>KMS Technology</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_kms)
-        await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_kms)
+    message_kms = f"📢 <b><a href='{url}'>KMS Technology</a> hôm nay ({today}):</b>\n" + '\n'.join(all_titles_kms)
+    await send_telegram_message_async(BOT_TOKEN, CHAT_ID, message_kms)
     print(f"KMS: Found {len(all_titles_kms)} jobs")
