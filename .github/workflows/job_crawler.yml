@@ -2,7 +2,7 @@ name: Job Crawler
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Chạy mỗi ngày lúc 3h sáng UTC
+    - cron: '0 2 * * *'  # Chạy mỗi ngày lúc 2h sáng UTC
   push:
     branches: [ main ]    # Chạy khi có push vào branch main
   workflow_dispatch:      # Cho phép chạy thủ công từ GitHub UI
@@ -22,13 +22,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4 datetime aiohttp playwright
-
-
-      - name: Install Playwright browsers
-        run: |
-          playwright install --with-deps
+          pip install requests beautifulsoup4
 
       - name: Run job crawler script
-
-        run: python main.py
+        run: python linkedin_crawler.py
