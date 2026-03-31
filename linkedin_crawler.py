@@ -36,6 +36,7 @@ COMPANY_LIST = [
 # r1209600 tương đương 1.209.600 giây = 14 ngày (2 tuần)
 TIME_RANGE = "r1209600"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+TELEGRAM_MAX_LENGTH = 4096
 
 
 def normalize_linkedin_url(url):
@@ -62,45 +63,84 @@ def send_telegram_message(message_html):
         "disable_web_page_preview": True,
     }
     response = requests.post(TELEGRAM_API_URL, data=payload, timeout=20)
-    response.raise_for_status()
+    if response.status_code != 200:
+        raise RuntimeError(f"Telegram API error {response.status_code}: {response.text}")
+
+
+def split_message_for_telegram(message_html):
+    """Split long HTML message into multiple messages without breaking lines."""
+    lines = message_html.split("\n")
+    chunks = []
+    current = []
+
+    for line in lines:
+        candidate = "\n".join(current + [line]).strip()
+        if len(candidate) <= TELEGRAM_MAX_LENGTH:
+            current.append(line)
+            continue
+
+        if current:
+            chunks.append("\n".join(current).strip())
+            current = [line]
+        else:
+            # Extremely long single line fallback.
+            chunks.append(line[:TELEGRAM_MAX_LENGTH])
+            current = []
+
+    if current:
+        chunks.append("\n".join(current).strip())
+
+    return [chunk for chunk in chunks if chunk]
 
 
 def build_report_message(all_jobs, scan_time):
-    header = [
+    header_lines = [
         "<b>📌 BÁO CÁO JOB JAVA - 2 TUẦN GẦN ĐÂY</b>",
         f"<i>🕒 Thời gian quét: {scan_time}</i>",
         "",
     ]
 
-    body = []
+    body_lines = []
     no_job_companies = []
     total_jobs = 0
+
+    def build_message(candidate_body, current_total_jobs, extra_footer=None):
+        footer_lines = ["", f"<b>✅ Tổng số job:</b> {current_total_jobs}"]
+        if extra_footer:
+            footer_lines.append(extra_footer)
+        return "\n".join(header_lines + candidate_body + footer_lines).strip()
+
     for company_name, jobs in all_jobs:
         if not jobs:
             no_job_companies.append(company_name)
             continue
 
-        body.append(f"<b>🟢 {escape(company_name.upper())}</b>")
+        company_heading = f"<b>🟢 {escape(company_name.upper())}</b>"
+        body_lines.append(company_heading)
+
         for index, job in enumerate(jobs, start=1):
             total_jobs += 1
             line = (
                 f"{index}. <b>[{escape(job['post_date'])}]</b> "
                 f"<a href=\"{escape(job['link'])}\">{escape(job['title'])}</a>"
             )
-            body.append(line)
-        body.append("")
+            body_lines.append(line)
+
+        body_lines.append("")
 
     if no_job_companies:
         no_job_text = ", ".join(escape(name) for name in no_job_companies)
-        body.append("<b>📭 Các công ty không có job phù hợp:</b>")
-        body.append(no_job_text)
-        body.append("")
+        no_job_section = [
+            "<b>📭 Các công ty không có job phù hợp:</b>",
+            no_job_text,
+            "",
+        ]
+        body_lines.extend(no_job_section)
 
     if total_jobs == 0:
-        body.append("Không tìm thấy job phù hợp trong khoảng thời gian đã chọn.")
+        body_lines.append("Không tìm thấy job phù hợp trong khoảng thời gian đã chọn.")
 
-    footer = [f"<b>✅ Tổng số job:</b> {total_jobs}"]
-    return "\n".join(header + body + footer).strip()
+    return build_message(body_lines, total_jobs)
 
 def crawl_linkedin_multi_company():
     headers = {
@@ -174,13 +214,19 @@ def crawl_linkedin_multi_company():
 
     scan_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     message_html = build_report_message(all_jobs, scan_time)
+    messages = split_message_for_telegram(message_html)
 
-    # Telegram allows up to 4096 chars per message.
-    if len(message_html) > 4096:
-        message_html = f"{message_html[:3950]}\n\n... (noi dung bi cat do vuot gioi han 1 tin nhan)"
+    for idx, msg in enumerate(messages, start=1):
+        if len(messages) > 1:
+            part_prefix = f"<b>(Phần {idx}/{len(messages)})</b>\n"
+            if len(part_prefix) + len(msg) <= TELEGRAM_MAX_LENGTH:
+                send_telegram_message(part_prefix + msg)
+            else:
+                send_telegram_message(msg)
+        else:
+            send_telegram_message(msg)
 
-    send_telegram_message(message_html)
-    print("\nHoan tat! Da gui ket qua qua Telegram.")
+    print(f"\nHoàn tất! Đã gửi {len(messages)} tin nhắn qua Telegram.")
 
 if __name__ == "__main__":
     crawl_linkedin_multi_company()
