@@ -7,14 +7,8 @@ from datetime import datetime
 from html import escape 
 from urllib.parse import urlsplit, urlunsplit 
 
-try: 
- from config import BOT_TOKEN, CHAT_ID 
-except Exception: 
- BOT_TOKEN = None 
- CHAT_ID = None 
- print("Warning: config.py not found; Telegram will be skipped.") 
-
-# Webhook Teams - thêm vào config hoặc set ở đây 
+BOT_TOKEN = '8155238330:AAH2t2i3zk7v8yzGnP73bw0PiJTmpgI-Ovw' 
+CHAT_ID = '5713801301' 
 TEAMS_WEBHOOK_URL = "https://fptsoftware362.webhook.office.com/webhookb2/26922374-936a-4890-b276-d4701bde91c1@f01e930a-b52e-42b1-b70f-a8882b5d043b/IncomingWebhook/31e6be510e8a4087989eff7b374fb25f/d72401ca-9be2-4344-96a7-ba1e3dac2b04/V2TDZIHACKWGODI7iLWtFvHFUHFL-pt28H0Eww2c_gQuo1" 
 
 # --- CẤU HÌNH MẢNG ID CÔNG TY --- 
@@ -63,22 +57,15 @@ def normalize_linkedin_url(url):
  return urlunsplit((parts.scheme or "https", netloc, parts.path, "", "")) 
 
 def send_telegram_message(message_html): 
- if not TELEGRAM_API_URL or not CHAT_ID: 
- print("Telegram not configured; skipping Telegram send.") 
- return 
-
  payload = { 
  "chat_id": CHAT_ID, 
  "text": message_html, 
  "parse_mode": "HTML", 
  "disable_web_page_preview": True, 
  } 
- try: 
  response = requests.post(TELEGRAM_API_URL, data=payload, timeout=20) 
  if response.status_code != 200: 
- print(f"Telegram API error {response.status_code}: {response.text}") 
- except Exception as e: 
- print(f"Error sending Telegram message: {e}") 
+ raise RuntimeError(f"Telegram API error {response.status_code}: {response.text}") 
 
 def send_teams_message(message_text): 
  """Send message to Teams webhook.""" 
@@ -89,9 +76,9 @@ def send_teams_message(message_text):
  try: 
  response = requests.post(TEAMS_WEBHOOK_URL, data=json.dumps(payload), headers=headers, timeout=20) 
  if response.status_code != 200: 
- print(f"Teams API error {response.status_code}: {response.text}") 
+ raise RuntimeError(f"Teams API error {response.status_code}: {response.text}") 
  except Exception as e: 
- print(f"Error sending Teams message: {e}") 
+ raise RuntimeError(f"Error sending Teams message: {e}") 
 
 def strip_html_tags(html_text): 
  """Convert HTML message to plain text by removing tags.""" 
