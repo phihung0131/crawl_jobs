@@ -218,7 +218,7 @@ def crawl_linkedin_multi_company():
         # Gửi Teams
         teams_text = msg_html.replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "")
         teams_text = teams_text.replace("<a href=\"", "").replace("\">", " - ").replace("</a>", "")
-        # send_teams_message(teams_text)
+        send_teams_message(teams_text)
 
         # Cập nhật log
         now_str = datetime.now().isoformat()
