@@ -193,7 +193,7 @@ def crawl_linkedin_multi_company():
                 # Nếu sau khi lọc qua log mà vẫn có job mới ở vùng này
                 if company_jobs:
                     found_in_geo = geo_id
-                    break # Dừng không quét các geoId sau cho công ty này
+
             else:
                 print("Trống.")
 
