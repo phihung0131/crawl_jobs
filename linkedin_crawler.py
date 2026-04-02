@@ -209,7 +209,7 @@ def build_report_message(all_jobs, scan_time):
         ])
 
     if total_jobs == 0:
-        body_lines.append("Không tìm thấy job phù hợp trong khoảng thời gian đã chọn.")
+        body_lines.append("Không có job mới.")
 
     return build_message(body_lines, total_jobs)
 
