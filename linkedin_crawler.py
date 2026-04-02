@@ -161,7 +161,7 @@ def crawl_linkedin_multi_company():
             print(f" 🔍 Quét {c_name} | Vùng: {geo_id}...", end=" ")
             html = fetch_html(c_id, geo_id)
 
-            time.sleep(random.randint(5, 10)) # Nghỉ từ 5-10 giây sau mỗi lần gọi URL
+            time.sleep(random.randint(3, 6)) # Nghỉ từ 5-10 giây sau mỗi lần gọi URL
 
             if not html:
                 print("Lỗi/Không data")
@@ -199,9 +199,6 @@ def crawl_linkedin_multi_company():
 
         if company_jobs:
             all_final_results.append((c_name, company_jobs))
-        
-        # Nghỉ ngẫu nhiên tránh bị block
-        time.sleep(random.randint(3, 6))
 
     # Xử lý báo cáo
     msg_html = build_report_message(all_final_results)
