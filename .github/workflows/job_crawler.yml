@@ -2,9 +2,7 @@ name: Job Crawler
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Chạy mỗi ngày lúc 2h sáng UTC
-  push:
-    branches: [ main ] # Chạy khi có push vào branch main
+    - cron: '0 0 * * *' # Chạy mỗi ngày lúc 2h sáng UTC
   workflow_dispatch: # Cho phép chạy thủ công từ GitHub UI
 
 jobs:
