@@ -6,13 +6,14 @@ import json
 from datetime import datetime
 from html import escape
 from urllib.parse import urlsplit, urlunsplit
+import os
 
 BOT_TOKEN = '8155238330:AAH2t2i3zk7v8yzGnP73bw0PiJTmpgI-Ovw'
 CHAT_ID = '5713801301'
 TEAMS_WEBHOOK_URL = "https://fptsoftware362.webhook.office.com/webhookb2/26922374-936a-4890-b276-d4701bde91c1@f01e930a-b52e-42b1-b70f-a8882b5d043b/IncomingWebhook/31e6be510e8a4087989eff7b374fb25f/d72401ca-9be2-4344-96a7-ba1e3dac2b04/V2TDZIHACKWGODI7iLWtFvHFUHFL-pt28H0Eww2c_gQuo1"
+LOG_FILE = "job_log.json"
 
 # --- CẤU HÌNH MẢNG ID CÔNG TY ---
-# Bạn chỉ cần thêm ID các công ty muốn theo dõi vào mảng này
 COMPANY_LIST = [
     {"id": "31297705", "name": "Zalopay"},
     {"id": "22329726", "name": "NAB"},
@@ -36,14 +37,55 @@ COMPANY_LIST = [
 ]
 
 # --- THÔNG SỐ CRAWL ---
-# r1209600 tương đương 1.209.600 giây = 14 ngày (2 tuần)
 TIME_RANGE = "r1209600"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 TELEGRAM_MAX_LENGTH = 4096
 
 
+def load_job_log():
+    if not os.path.exists(LOG_FILE):
+        return {}
+
+    try:
+        with open(LOG_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return {}
+
+
+def save_job_log(log_data):
+    with open(LOG_FILE, 'w', encoding='utf-8') as f:
+        json.dump(log_data, f, ensure_ascii=False, indent=2)
+
+
+def is_job_sent(job_link, log_data):
+    return job_link in log_data
+
+
+def mark_job_as_sent(job_link, job_info, log_data):
+    log_data[job_link] = {
+        "title": job_info["title"],
+        "company": job_info.get("company", ""),
+        "sent_at": datetime.now().isoformat(),
+        "post_date": job_info["post_date"],
+    }
+
+
+def filter_new_jobs(all_jobs, log_data):
+    filtered_jobs = []
+
+    for company_name, jobs in all_jobs:
+        new_jobs = [
+            job for job in jobs
+            if not is_job_sent(job["link"], log_data)
+        ]
+        if new_jobs:
+            filtered_jobs.append((company_name, new_jobs))
+
+    return filtered_jobs
+
+
 def normalize_linkedin_url(url):
-    """Normalize linkedin domains from *.linkedin.com to linkedin.com and drop query params."""
     if not url:
         return ""
 
@@ -54,7 +96,6 @@ def normalize_linkedin_url(url):
     if netloc.endswith(".linkedin.com") and netloc != "linkedin.com":
         netloc = "linkedin.com"
 
-    # Keep only scheme/netloc/path so output link is clean and stable.
     return urlunsplit((parts.scheme or "https", netloc, parts.path, "", ""))
 
 
@@ -73,7 +114,6 @@ def send_telegram_message(message_html):
 
 
 def send_teams_message(message_text):
-    """Send message to Teams webhook."""
     payload = {"text": message_text}
     headers = {"Content-Type": "application/json"}
 
@@ -93,7 +133,6 @@ def send_teams_message(message_text):
 
 
 def strip_html_tags(html_text):
-    """Convert HTML message to plain text by removing tags."""
     text = html_text
     text = text.replace("<b>", "").replace("</b>", "")
     text = text.replace("<i>", "").replace("</i>", "")
@@ -102,7 +141,6 @@ def strip_html_tags(html_text):
 
 
 def split_message_for_telegram(message_html):
-    """Split long HTML message into multiple messages without breaking lines."""
     lines = message_html.split("\n")
     chunks = []
     current = []
@@ -118,7 +156,6 @@ def split_message_for_telegram(message_html):
             chunks.append("\n".join(current).strip())
             current = [line]
         else:
-            # Extremely long single line fallback.
             chunks.append(line[:TELEGRAM_MAX_LENGTH])
             current = []
 
@@ -165,12 +202,11 @@ def build_report_message(all_jobs, scan_time):
 
     if no_job_companies:
         no_job_text = ", ".join(escape(name) for name in no_job_companies)
-        no_job_section = [
+        body_lines.extend([
             "<b>📭 Các công ty không có job phù hợp:</b>",
             no_job_text,
             "",
-        ]
-        body_lines.extend(no_job_section)
+        ])
 
     if total_jobs == 0:
         body_lines.append("Không tìm thấy job phù hợp trong khoảng thời gian đã chọn.")
@@ -180,10 +216,11 @@ def build_report_message(all_jobs, scan_time):
 
 def crawl_linkedin_multi_company():
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+        "User-Agent": "Mozilla/5.0",
+        "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8",
     }
 
+    job_log = load_job_log()
     all_jobs = []
 
     for company in COMPANY_LIST:
@@ -219,6 +256,7 @@ def crawl_linkedin_multi_company():
                 title_tag = item.find("h3", class_="base-search-card__title")
                 if not title_tag:
                     continue
+
                 title = title_tag.text.strip()
 
                 link_tag = item.find("a", class_="base-card__full-link")
@@ -230,15 +268,15 @@ def crawl_linkedin_multi_company():
                 time_tag = item.find("time", class_="job-search-card__listdate")
                 if not time_tag:
                     time_tag = item.find("span", class_="job-search-card__listdate--new")
+
                 post_date = time_tag.text.strip() if time_tag else "Vua dang"
 
-                company_jobs.append(
-                    {
-                        "title": title,
-                        "link": link,
-                        "post_date": post_date,
-                    }
-                )
+                company_jobs.append({
+                    "title": title,
+                    "link": link,
+                    "post_date": post_date,
+                    "company": c_name,
+                })
 
             print(f" Da tim thay {len(company_jobs)} job phu hop.")
             all_jobs.append((c_name, company_jobs))
@@ -247,11 +285,12 @@ def crawl_linkedin_multi_company():
             print(f" Loi khi xu ly {c_name}: {e}")
             all_jobs.append((c_name, company_jobs))
 
-        # Nghỉ ngẫu nhiên để tránh bị block IP
         time.sleep(random.randint(3, 7))
 
+    new_jobs = filter_new_jobs(all_jobs, job_log)
+
     scan_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-    message_html = build_report_message(all_jobs, scan_time)
+    message_html = build_report_message(new_jobs, scan_time)
     messages = split_message_for_telegram(message_html)
 
     for idx, msg in enumerate(messages, start=1):
@@ -266,11 +305,20 @@ def crawl_linkedin_multi_company():
 
     print(f"\nHoàn tất! Đã gửi {len(messages)} tin nhắn qua Telegram.")
 
-    # Send to Teams webhook
     if TEAMS_WEBHOOK_URL:
         teams_message = strip_html_tags(message_html)
         send_teams_message(teams_message)
         print("Đã gửi báo cáo qua Teams webhook.")
+
+    if new_jobs and any(jobs for _, jobs in new_jobs):
+        for company_name, jobs in new_jobs:
+            for job in jobs:
+                mark_job_as_sent(job["link"], job, job_log)
+
+        save_job_log(job_log)
+        print(f"Đã update log file. Tổng số job đã gửi: {len(job_log)}")
+    else:
+        print(f"\n✓ Không có job mới. Log file hiện có {len(job_log)} job.")
 
 
 if __name__ == "__main__":
