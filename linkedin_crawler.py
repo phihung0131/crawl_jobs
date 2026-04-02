@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from html import escape
 from urllib.parse import urlsplit, urlunsplit
 import os
+import re
 
 # =================================================================
 # CẤU HÌNH BIẾN (DỄ DÀNG CHỈNH SỬA)
@@ -107,12 +108,18 @@ def send_telegram_message(message_html):
         print("❌ Lỗi gửi Telegram")
 
 def send_teams_message(message_text):
-    payload = {"text": message_text}
+    # Teams sử dụng định dạng Adaptive Cards hoặc Markdown đơn giản qua Webhook
+    payload = {
+        "text": message_text,
+        "textFormat": "markdown"
+    }
     headers = {"Content-Type": "application/json"}
     try:
-        requests.post(TEAMS_WEBHOOK_URL, data=json.dumps(payload), headers=headers, timeout=20)
-    except:
-        print("❌ Lỗi gửi Teams")
+        response = requests.post(TEAMS_WEBHOOK_URL, data=json.dumps(payload), headers=headers, timeout=20)
+        if response.status_code != 200:
+            print(f"❌ Teams trả về lỗi: {response.status_code}")
+    except Exception as e:
+        print(f"❌ Lỗi gửi Teams: {e}")
 
 def build_report_message(all_results):
     scan_time = datetime.now().strftime("%H:%M")
@@ -222,8 +229,9 @@ def crawl_linkedin_multi_company():
             send_telegram_message("\n".join(current_chunk))
         
         # Gửi Teams
-        teams_text = msg_html.replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "")
-        teams_text = teams_text.replace("<a href=\"", "").replace("\">", " - ").replace("</a>", "")
+        teams_text = msg_html.replace("<b>", "**").replace("</b>", "**")
+        teams_text = teams_text.replace("<i>", "*").replace("</i>", "*")
+        teams_text = re.sub(r'<a href="(.*?)">(.*?)</a>', r'[\2](\1)', teams_text)
         send_teams_message(teams_text)
 
         # Cập nhật log
