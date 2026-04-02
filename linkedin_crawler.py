@@ -198,7 +198,13 @@ def crawl_linkedin_multi_company():
                 print("Trống.")
 
         if company_jobs:
-            all_final_results.append((c_name, company_jobs))
+            # Lọc trùng sau khi quét xong tất cả geoId, dùng link làm khóa duy nhất
+            deduped_jobs = {}
+            for job in company_jobs:
+                if job["link"] not in deduped_jobs:
+                    deduped_jobs[job["link"]] = job
+
+            all_final_results.append((c_name, list(deduped_jobs.values())))
 
     # Xử lý báo cáo
     msg_html = build_report_message(all_final_results)
