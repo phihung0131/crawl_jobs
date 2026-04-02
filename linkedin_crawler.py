@@ -17,10 +17,10 @@ CHAT_ID = '5713801301'
 TEAMS_WEBHOOK_URL = "https://fptsoftware362.webhook.office.com/webhookb2/26922374-936a-4890-b276-d4701bde91c1@f01e930a-b52e-42b1-b70f-a8882b5d043b/IncomingWebhook/31e6be510e8a4087989eff7b374fb25f/d72401ca-9be2-4344-96a7-ba1e3dac2b04/V2TDZIHACKWGODI7iLWtFvHFUHFL-pt28H0Eww2c_gQuo1"
 
 LOG_FILE = "job_log.json"
-MAX_LOG_DAYS = 3  # Xóa job trong log nếu cũ hơn n ngày
-TIME_RANGE = "r172800"  # r172800 = 2 ngày (48 giờ)
+MAX_LOG_DAYS = 3  
+TIME_RANGE = "r172800"  
 KEYWORDS = "%22Java%22"
-GEO_IDS = [103697962, 90010187, 102267004] # VN, HCM Metro, ...
+GEO_IDS = [103697962, 90010187, 102267004] 
 
 COMPANY_LIST = [
     {"id": "31297705", "name": "Zalopay"},
@@ -56,17 +56,13 @@ TELEGRAM_MAX_LENGTH = 4096
 # =================================================================
 
 def clean_and_load_log():
-    """Tải log và xóa các entry cũ hơn MAX_LOG_DAYS."""
     if not os.path.exists(LOG_FILE):
         return {}
     try:
         with open(LOG_FILE, 'r', encoding='utf-8') as f:
             log_data = json.load(f)
-        
-        # Logic dọn dẹp log
         now = datetime.now()
         threshold = now - timedelta(days=MAX_LOG_DAYS)
-        
         new_log = {}
         removed_count = 0
         for link, info in log_data.items():
@@ -75,11 +71,9 @@ def clean_and_load_log():
                 new_log[link] = info
             else:
                 removed_count += 1
-        
         if removed_count > 0:
             print(f"🧹 Đã dọn dẹp {removed_count} job cũ khỏi log.")
             save_job_log(new_log)
-            
         return new_log
     except Exception as e:
         print(f"⚠️ Lỗi load log: {e}")
@@ -108,7 +102,6 @@ def send_telegram_message(message_html):
         print("❌ Lỗi gửi Telegram")
 
 def send_teams_message(message_text):
-    # Teams sử dụng định dạng Adaptive Cards hoặc Markdown đơn giản qua Webhook
     payload = {
         "text": message_text,
         "textFormat": "markdown"
@@ -116,13 +109,16 @@ def send_teams_message(message_text):
     headers = {"Content-Type": "application/json"}
     try:
         response = requests.post(TEAMS_WEBHOOK_URL, data=json.dumps(payload), headers=headers, timeout=20)
-        if response.status_code != 200:
-            print(f"❌ Teams trả về lỗi: {response.status_code}")
     except Exception as e:
         print(f"❌ Lỗi gửi Teams: {e}")
 
 def build_report_message(all_results):
-    scan_time = datetime.now().strftime("%H:%M")
+    scan_time = datetime.now().strftime("%d/%m/%Y %H:%M")
+    
+    # Trường hợp không có job nào mới
+    if not all_results or len(all_results) == 0:
+        return f"<b>📅 Thông báo ngày {scan_time}</b>\n\n😴 Hôm nay không có job mới về."
+
     header = f"<b>🔔 PHÁT HIỆN JOB JAVA MỚI ({scan_time})</b>\n\n"
     body = []
     total = 0
@@ -134,7 +130,10 @@ def build_report_message(all_results):
             body.append(f"{index}. <b>[{escape(job['post_date'])}]</b> <a href=\"{escape(job['link'])}\">{escape(job['title'])}</a>")
         body.append("")
     
-    if total == 0: return None
+    # Check lại lần nữa nếu danh sách rỗng sau khi filter
+    if total == 0:
+        return f"<b>📅 Thông báo ngày {scan_time}</b>\n\n😴 Hôm nay không có job mới về."
+        
     footer = f"\n<b>🚀 Tổng số job mới:</b> {total}"
     return header + "\n".join(body) + footer
 
@@ -161,14 +160,11 @@ def crawl_linkedin_multi_company():
     for company in COMPANY_LIST:
         c_id, c_name = company["id"], company["name"]
         company_jobs = []
-        found_in_geo = None
 
-        # Chạy lần lượt từng geoId
         for geo_id in GEO_IDS:
             print(f" 🔍 Quét {c_name} | Vùng: {geo_id}...", end=" ")
             html = fetch_html(c_id, geo_id)
-
-            time.sleep(random.randint(3, 6)) # Nghỉ từ 5-10 giây sau mỗi lần gọi URL
+            time.sleep(random.randint(2, 4)) 
 
             if not html:
                 print("Lỗi/Không data")
@@ -179,14 +175,12 @@ def crawl_linkedin_multi_company():
             
             if job_items:
                 print(f"Tìm thấy {len(job_items)} items.")
-                # Xử lý lấy job
                 for item in job_items:
                     title_tag = item.find("h3", class_="base-search-card__title")
                     link_tag = item.find("a", class_=["base-card__full-link", "base-search-card--link"])
                     
                     if title_tag and link_tag:
                         link = normalize_linkedin_url(link_tag.get("href"))
-                        # Kiểm tra xem job này đã gửi chưa
                         if link and link not in job_log:
                             time_tag = item.find("time") or item.find("span", class_="job-search-card__listdate--new")
                             post_date = time_tag.text.strip() if time_tag else "Vừa đăng"
@@ -196,45 +190,39 @@ def crawl_linkedin_multi_company():
                                 "link": link,
                                 "post_date": post_date
                             })
-                
-                # Nếu sau khi lọc qua log mà vẫn có job mới ở vùng này
-                if company_jobs:
-                    found_in_geo = geo_id
-
             else:
                 print("Trống.")
 
         if company_jobs:
-            # Lọc trùng sau khi quét xong tất cả geoId, dùng link làm khóa duy nhất
             deduped_jobs = {}
             for job in company_jobs:
                 if job["link"] not in deduped_jobs:
                     deduped_jobs[job["link"]] = job
-
             all_final_results.append((c_name, list(deduped_jobs.values())))
 
-    # Xử lý báo cáo
+    # Xử lý báo cáo (Luôn có msg_html kể cả khi không có job)
     msg_html = build_report_message(all_final_results)
-    if msg_html:
-        # Gửi Telegram
-        lines = msg_html.split("\n")
-        current_chunk = []
-        for line in lines:
-            if len("\n".join(current_chunk + [line])) > TELEGRAM_MAX_LENGTH:
-                send_telegram_message("\n".join(current_chunk))
-                current_chunk = [line]
-            else:
-                current_chunk.append(line)
-        if current_chunk:
+    
+    # Gửi Telegram
+    lines = msg_html.split("\n")
+    current_chunk = []
+    for line in lines:
+        if len("\n".join(current_chunk + [line])) > TELEGRAM_MAX_LENGTH:
             send_telegram_message("\n".join(current_chunk))
-        
-        # Gửi Teams
-        teams_text = msg_html.replace("<b>", "**").replace("</b>", "**")
-        teams_text = teams_text.replace("<i>", "*").replace("</i>", "*")
-        teams_text = re.sub(r'<a href="(.*?)">(.*?)</a>', r'[\2](\1)', teams_text)
-        send_teams_message(teams_text)
+            current_chunk = [line]
+        else:
+            current_chunk.append(line)
+    if current_chunk:
+        send_telegram_message("\n".join(current_chunk))
+    
+    # Gửi Teams
+    teams_text = msg_html.replace("<b>", "**").replace("</b>", "**")
+    teams_text = teams_text.replace("<i>", "*").replace("</i>", "*")
+    teams_text = re.sub(r'<a href="(.*?)">(.*?)</a>', r'[\2](\1)', teams_text)
+    send_teams_message(teams_text)
 
-        # Cập nhật log
+    # Cập nhật log chỉ khi có job mới thực sự
+    if all_final_results:
         now_str = datetime.now().isoformat()
         for c_name, jobs in all_final_results:
             for job in jobs:
@@ -245,9 +233,9 @@ def crawl_linkedin_multi_company():
                     "post_date": job["post_date"]
                 }
         save_job_log(job_log)
-        print(f"✅ Đã gửi báo cáo và cập nhật log. Tổng job mới: {len(job_log)}")
+        print(f"✅ Đã gửi báo cáo. Tìm thấy job mới.")
     else:
-        print("😴 Không có job nào mới so với log.")
+        print("😴 Không có job mới. Đã gửi thông báo 'Trống' tới Telegram/Teams.")
 
 if __name__ == "__main__":
     crawl_linkedin_multi_company()
