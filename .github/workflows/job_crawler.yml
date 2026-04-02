@@ -2,8 +2,8 @@ name: Job Crawler
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Chạy mỗi ngày lúc 2h sáng UTC
-  workflow_dispatch: # Cho phép chạy thủ công từ GitHub UI
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -14,24 +14,26 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Install Python dependencies
         run: |
-          pip install requests beautifulsoup4
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run job crawler script
         run: python linkedin_crawler.py
 
       - name: Configure git
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
       - name: Commit and push changes
         run: |
