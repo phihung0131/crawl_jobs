@@ -2,14 +2,17 @@ name: Job Crawler
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Chạy mỗi ngày lúc 2h sáng UTC
+    - cron: '0 2 * * *' # Chạy mỗi ngày lúc 2h sáng UTC
   push:
-    branches: [ main ]    # Chạy khi có push vào branch main
-  workflow_dispatch:      # Cho phép chạy thủ công từ GitHub UI
+    branches: [ main ] # Chạy khi có push vào branch main
+  workflow_dispatch: # Cho phép chạy thủ công từ GitHub UI
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -26,3 +29,13 @@ jobs:
 
       - name: Run job crawler script
         run: python linkedin_crawler.py
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push changes
+        run: |
+          git add job_log.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update job_log.json [skip ci]" && git push)
