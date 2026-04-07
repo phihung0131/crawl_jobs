@@ -1,52 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/solution-designer-at-nab-innovation-centre-vietnam-4396073929": {
-    "title": "Solution Designer",
-    "company": "NAB",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-full-stack-software-engineer-java-reactjs-at-momo-m-service-4397542523": {
-    "title": "Senior Full-stack Software Engineer (Java & ReactJS)",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/game-server-at-momo-m-service-4397537575": {
-    "title": "Game Server",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-back-end-developer-java-at-zalo-4396590049": {
-    "title": "Senior Back End Developer, Java",
-    "company": "Zalo",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-systems-support-engineer-at-thoughtworks-4384242846": {
-    "title": "Senior Systems Support Engineer",
-    "company": "Thoughtworks",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "8 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-embedded-software-engineer-subsea-domain-at-hcltech-vietnam-4380409169": {
-    "title": "Junior Embedded Software Engineer (Subsea Domain)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/angular-developer-us-uk-market-at-fpt-software-4397534324": {
-    "title": "Angular Developer (US-UK Market)",
-    "company": "FPT Software",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-developer-kotlin-java-at-endava-4384219613": {
-    "title": "Senior Developer (Kotlin/Java)",
-    "company": "Endava",
-    "sent_at": "2026-04-04T02:02:27.967468",
-    "post_date": "16 hours ago"
-  },
   "https://linkedin.com/jobs/view/technical-architect-hicaps-at-nab-innovation-centre-vietnam-4397408937": {
     "title": "Technical Architect - HICAPS",
     "company": "NAB",
@@ -76,5 +28,65 @@
     "company": "CMC",
     "sent_at": "2026-04-06T02:16:51.248837",
     "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-golang-at-zalopay-4397765232": {
+    "title": "Software Engineer (Golang)",
+    "company": "Zalopay",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-fullstack-developer-at-axon-active-agile-software-development-company-4394452566": {
+    "title": "Java Fullstack Developer",
+    "company": "Axon Active",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fullstack-software-engineer-at-axon-active-agile-software-development-company-4394461545": {
+    "title": "Fullstack Software Engineer",
+    "company": "Axon Active",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-service-core-at-momo-m-service-4397898984": {
+    "title": "Software Engineer, Service Core",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-quality-control-engineer-at-dxc-technology-vietnam-4382919432": {
+    "title": "Senior Quality Control Engineer",
+    "company": "DXC",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-middle-at-dxc-technology-vietnam-4397773772": {
+    "title": "Java Developer (Middle)",
+    "company": "DXC",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-backend-at-shopback-4281770937": {
+    "title": "Software Engineer Intern - Backend",
+    "company": "ShopBack",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4394432491": {
+    "title": "Java Software Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-java-software-engineer-java-angular-reactjs-at-kms-technology-inc-4397911965": {
+    "title": "Senior Full-stack Java Software Engineer (Java & Angular/ReactJS)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/ai-native-software-engineer-lead-at-kms-technology-inc-4397904899": {
+    "title": "AI-Native Software Engineer Lead",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-07T02:13:03.557373",
+    "post_date": "21 hours ago"
   }
 }
