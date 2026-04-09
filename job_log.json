@@ -1,10 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/technical-architect-hicaps-at-nab-innovation-centre-vietnam-4397408937": {
-    "title": "Technical Architect - HICAPS",
-    "company": "NAB",
-    "sent_at": "2026-04-05T02:15:57.051470",
-    "post_date": "22 hours ago"
-  },
   "https://linkedin.com/jobs/view/lead-java-engineer-merchant-services-at-nab-innovation-centre-vietnam-4378695846": {
     "title": "Lead Java Engineer - Merchant Services",
     "company": "NAB",
@@ -148,5 +142,41 @@
     "company": "Endava",
     "sent_at": "2026-04-08T02:13:35.219380",
     "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/solution-designer-technology-fraud-scams-at-nab-innovation-centre-vietnam-4399226999": {
+    "title": "Solution Designer - Technology Fraud & Scams",
+    "company": "NAB",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-backend-developer-at-zalo-4395927799": {
+    "title": "Senior Backend Developer",
+    "company": "Zalo",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4395959875": {
+    "title": "Java Software Engineer",
+    "company": "CMC",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/hcl-tech-x-anz-bank-automation-test-engineer-6-month-contract-at-hcltech-vietnam-4395979065": {
+    "title": "[HCL Tech x ANZ Bank] - Automation Test Engineer (6-month contract)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-quality-engineer-6-months-contract-at-hcltech-vietnam-4395957607": {
+    "title": "Senior Quality Engineer (6 months Contract)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-developer-kotlin-java-at-endava-4395937803": {
+    "title": "Senior Developer (Kotlin/Java)",
+    "company": "Endava",
+    "sent_at": "2026-04-09T02:06:26.010835",
+    "post_date": "22 hours ago"
   }
 }
