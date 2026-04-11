@@ -124,5 +124,53 @@
     "company": "HCLTech Vietnam",
     "sent_at": "2026-04-10T02:26:32.945920",
     "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/middle-software-engineer-backend-at-momo-m-service-4398887774": {
+    "title": "Middle - Software Engineer (Backend)",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-software-engineer-at-zalo-4400370143": {
+    "title": "Lead Software Engineer",
+    "company": "Zalo",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-engineers-at-dxc-technology-vietnam-4371814892": {
+    "title": "Senior Java Engineers",
+    "company": "DXC",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/android-automotive-embedded-at-cmc-global-company-limited-4397668550": {
+    "title": "Android Automotive (Embedded)",
+    "company": "CMC",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/data-engineer-remote-hn-hcm-at-fpt-software-4397694357": {
+    "title": "Data Engineer - Remote (HN/HCM)",
+    "company": "FPT Software",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/developer-java-at-endava-4377642860": {
+    "title": "Developer (Java)",
+    "company": "Endava",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-developer-java-at-endava-4377663028": {
+    "title": "Senior Developer (Java)",
+    "company": "Endava",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/c%2B%2B-developer-backend-at-endava-4387794087": {
+    "title": "C++ Developer (Backend)",
+    "company": "Endava",
+    "sent_at": "2026-04-11T02:07:01.552741",
+    "post_date": "15 hours ago"
   }
 }
