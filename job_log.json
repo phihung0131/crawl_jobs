@@ -1,34 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/microservices-developer-at-nab-innovation-centre-vietnam-4399844807": {
-    "title": "Microservices Developer",
-    "company": "NAB",
-    "sent_at": "2026-04-10T02:26:32.945920",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/qc-intern-at-momo-m-service-4398667418": {
-    "title": "QC Intern",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-04-10T02:26:32.945920",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-quality-control-engineer-at-dxc-technology-vietnam-4384117256": {
-    "title": "Senior Quality Control Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-10T02:26:32.945920",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-at-cmc-global-company-limited-4397673555": {
-    "title": "Software Engineer",
-    "company": "CMC",
-    "sent_at": "2026-04-10T02:26:32.945920",
-    "post_date": "17 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/lead-java-developer-gas-oil-domain-at-hcltech-vietnam-4397220605": {
-    "title": "Lead Java Developer (Gas & Oil Domain)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-04-10T02:26:32.945920",
-    "post_date": "17 hours ago"
-  },
   "https://linkedin.com/jobs/view/middle-software-engineer-backend-at-momo-m-service-4398887774": {
     "title": "Middle - Software Engineer (Backend)",
     "company": "MoMo (M_Service)",
@@ -82,5 +52,29 @@
     "company": "WorldQuant",
     "sent_at": "2026-04-12T02:28:26.943979",
     "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-golang-python-at-zalopay-4400964896": {
+    "title": "Senior Software Engineer (Golang/Python)",
+    "company": "Zalopay",
+    "sent_at": "2026-04-13T02:33:26.675049",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
+    "title": "Application Enhancement Lead",
+    "company": "Thoughtworks",
+    "sent_at": "2026-04-13T02:33:26.675049",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4398780961": {
+    "title": "Java Software Engineer",
+    "company": "CMC",
+    "sent_at": "2026-04-13T02:33:26.675049",
+    "post_date": "12 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4400993216": {
+    "title": "Java Software Engineer (Spring/Azure/AWS)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-13T02:33:26.675049",
+    "post_date": "12 hours ago"
   }
 }
