@@ -1,28 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-software-engineer-golang-python-at-zalopay-4400964896": {
-    "title": "Senior Software Engineer (Golang/Python)",
-    "company": "Zalopay",
-    "sent_at": "2026-04-13T02:33:26.675049",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
-    "title": "Application Enhancement Lead",
-    "company": "Thoughtworks",
-    "sent_at": "2026-04-13T02:33:26.675049",
-    "post_date": "9 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4398780961": {
-    "title": "Java Software Engineer",
-    "company": "CMC",
-    "sent_at": "2026-04-13T02:33:26.675049",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4400993216": {
-    "title": "Java Software Engineer (Spring/Azure/AWS)",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-13T02:33:26.675049",
-    "post_date": "12 hours ago"
-  },
   "https://linkedin.com/jobs/view/staff-software-engineer-golang-java-at-zalopay-4400964896": {
     "title": "Staff Software Engineer (Golang/Java)",
     "company": "Zalopay",
@@ -268,5 +244,77 @@
     "company": "Grab",
     "sent_at": "2026-04-16T02:32:33.056917",
     "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/devops-engineering-manager-digital-identity-access-at-nab-innovation-centre-vietnam-4402929369": {
+    "title": "DevOps Engineering Manager - Digital Identity & Access",
+    "company": "NAB",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-engineer-banking-domain-at-hcltech-vietnam-4401839467": {
+    "title": "Automation Test Engineer (Banking Domain)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/site-reliability-engineer-intern-at-shopback-4362221283": {
+    "title": "Site Reliability Engineer Intern",
+    "company": "ShopBack",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4402351228": {
+    "title": "Java Software Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "3 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-banking-project-package-up-to-%243k-at-fpt-software-4401853223": {
+    "title": "Java Developer - Banking Project (Package up to $3k)",
+    "company": "FPT Software",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4400154911": {
+    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4400150898": {
+    "title": "Java Software Engineer (Spring/Azure/AWS)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-test-engineer-at-kms-technology-inc-4400140911": {
+    "title": "Senior Full-Stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-test-engineer-at-kms-technology-inc-4400147859": {
+    "title": "Full-stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-engineer-at-kms-technology-inc-4400144943": {
+    "title": "Automation Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-automation-test-engineer-at-kms-technology-inc-4400140923": {
+    "title": "Senior Automation Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-lead-katalon-malaysia-on-site-at-kms-technology-inc-4400143920": {
+    "title": "Automation Test Lead (Katalon) - Malaysia On-site",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-17T02:28:33.035471",
+    "post_date": "20 hours ago"
   }
 }
