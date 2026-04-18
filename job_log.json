@@ -1,40 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/staff-software-engineer-golang-java-at-zalopay-4400964896": {
-    "title": "Staff Software Engineer (Golang/Java)",
-    "company": "Zalopay",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/middle-java-software-engineer-at-dxc-technology-vietnam-4401054109": {
-    "title": "Middle Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-tester-at-dxc-technology-vietnam-4401032569": {
-    "title": "Automation Tester",
-    "company": "DXC",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4401039338": {
-    "title": "Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-at-cmc-global-company-limited-4399168773": {
-    "title": "Java Developer",
-    "company": "CMC",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-test-us-uk-market-at-fpt-software-4399122209": {
-    "title": "Automation Test (US-UK Market)",
-    "company": "FPT Software",
-    "sent_at": "2026-04-14T02:27:45.350312",
-    "post_date": "22 hours ago"
-  },
   "https://linkedin.com/jobs/view/senior-lead-mobile-developer-android-ios-at-zalo-4401719715": {
     "title": "(Senior) Lead Mobile Developer, Android/iOS",
     "company": "Zalo",
@@ -316,5 +280,35 @@
     "company": "KMS Technology",
     "sent_at": "2026-04-17T02:28:33.035471",
     "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/solution-design-hicaps-at-nab-innovation-centre-vietnam-4397408937": {
+    "title": "Solution Design - HICAPS",
+    "company": "NAB",
+    "sent_at": "2026-04-18T02:11:36.323892",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-software-developer-at-thoughtworks-4301303183": {
+    "title": "Lead Software Developer",
+    "company": "Thoughtworks",
+    "sent_at": "2026-04-18T02:11:36.323892",
+    "post_date": "11 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fresher-java-software-engineer-odh-may-2026-at-kms-technology-inc-4400805491": {
+    "title": "Fresher Java Software Engineer [ODH - May 2026]",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-18T02:11:36.323892",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/ai-solutions-architect-software-engineering-transformation-lead-at-kms-technology-inc-4400479504": {
+    "title": "AI Solutions Architect (Software Engineering Transformation Lead)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-18T02:11:36.323892",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-odh-may-2026-at-kms-technology-inc-4400812407": {
+    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester) [ODH - May 2026]",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-18T02:11:36.323892",
+    "post_date": "16 hours ago"
   }
 }
