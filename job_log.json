@@ -1,70 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-lead-mobile-developer-android-ios-at-zalo-4401719715": {
-    "title": "(Senior) Lead Mobile Developer, Android/iOS",
-    "company": "Zalo",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4392391293": {
-    "title": "Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-software-engineer-at-dxc-technology-vietnam-4361607146": {
-    "title": "Senior Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-net-c-software-engineer-japanese-at-dxc-technology-vietnam-4371839109": {
-    "title": "Java/.NET/C Software Engineer (Japanese)",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-engineer-at-dxc-technology-vietnam-4340770395": {
-    "title": "Automation Engineer",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-ph%E1%BA%A7n-m%E1%BB%81m-n3-n2-ti%E1%BA%BFng-nh%E1%BA%ADt-at-dxc-technology-vietnam-4382908786": {
-    "title": "Kỹ Sư Phần Mềm (N3/N2 Tiếng Nhật)",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/ingenium-consultant-at-dxc-technology-vietnam-4344248199": {
-    "title": "Ingenium Consultant",
-    "company": "DXC",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-consultant-software-development-at-thoughtworks-4207936037": {
-    "title": "Lead Consultant, Software Development",
-    "company": "Thoughtworks",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "8 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-test-engineer-hcl-anz-banking-at-hcltech-vietnam-4400707990": {
-    "title": "Automation Test Engineer (HCL & ANZ Banking)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/middle-quality-engineer-manual-and-auto-at-hcltech-vietnam-4400713661": {
-    "title": "Middle Quality Engineer (Manual and Auto)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-test-lead-katalon-malaysia-on-site-at-kms-technology-inc-4399749927": {
-    "title": "Automation Test Lead (Katalon) - Malaysia On-site",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-15T02:16:54.434628",
-    "post_date": "12 hours ago"
-  },
   "https://linkedin.com/jobs/view/software-engineer-java-bank-solutions-at-zalopay-4395270297": {
     "title": "Software Engineer - Java (Bank Solutions)",
     "company": "Zalopay",
@@ -310,5 +244,11 @@
     "company": "KMS Technology",
     "sent_at": "2026-04-18T02:11:36.323892",
     "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/engineering-manager-messaging-chatbot-at-nab-innovation-centre-vietnam-4382350600": {
+    "title": "Engineering Manager - Messaging & Chatbot",
+    "company": "NAB",
+    "sent_at": "2026-04-19T02:33:06.919468",
+    "post_date": "23 hours ago"
   }
 }
