@@ -1,34 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/solution-design-hicaps-at-nab-innovation-centre-vietnam-4397408937": {
-    "title": "Solution Design - HICAPS",
-    "company": "NAB",
-    "sent_at": "2026-04-18T02:11:36.323892",
-    "post_date": "21 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-software-developer-at-thoughtworks-4301303183": {
-    "title": "Lead Software Developer",
-    "company": "Thoughtworks",
-    "sent_at": "2026-04-18T02:11:36.323892",
-    "post_date": "11 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-java-software-engineer-odh-may-2026-at-kms-technology-inc-4400805491": {
-    "title": "Fresher Java Software Engineer [ODH - May 2026]",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-18T02:11:36.323892",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/ai-solutions-architect-software-engineering-transformation-lead-at-kms-technology-inc-4400479504": {
-    "title": "AI Solutions Architect (Software Engineering Transformation Lead)",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-18T02:11:36.323892",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-odh-may-2026-at-kms-technology-inc-4400812407": {
-    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester) [ODH - May 2026]",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-18T02:11:36.323892",
-    "post_date": "16 hours ago"
-  },
   "https://linkedin.com/jobs/view/engineering-manager-messaging-chatbot-at-nab-innovation-centre-vietnam-4382350600": {
     "title": "Engineering Manager - Messaging & Chatbot",
     "company": "NAB",
@@ -40,5 +10,41 @@
     "company": "MoMo (M_Service)",
     "sent_at": "2026-04-20T02:33:41.842770",
     "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-scientist-at-zalopay-4404044304": {
+    "title": "Senior Data Scientist",
+    "company": "Zalopay",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-developer-fiza-javascript-java-at-zalo-4403361876": {
+    "title": "Senior Full Stack Developer, Fiza (JavaScript, Java)",
+    "company": "Zalo",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-qc-engineer-at-zalo-4403622480": {
+    "title": "Automation QC Engineer",
+    "company": "Zalo",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "12 hours ago"
+  },
+  "https://linkedin.com/jobs/view/solution-architect-net-java-%243k-%244k-at-fpt-software-4403340597": {
+    "title": "Solution Architect (.NET/Java) ($3k-$4k)",
+    "company": "FPT Software",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-engineer-java-%2B-reactjs-hn-hcm-at-fpt-software-4403695664": {
+    "title": "Full Stack Engineer (Java + Reactjs) - HN/HCM",
+    "company": "FPT Software",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "12 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-based-in-da-nang-odh-may-2026-at-kms-technology-inc-4401603541": {
+    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester), based in Da Nang [ODH - May 2026]",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-21T02:29:44.838657",
+    "post_date": "19 hours ago"
   }
 }
