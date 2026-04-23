@@ -1,10 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/engineering-manager-messaging-chatbot-at-nab-innovation-centre-vietnam-4382350600": {
-    "title": "Engineering Manager - Messaging & Chatbot",
-    "company": "NAB",
-    "sent_at": "2026-04-19T02:33:06.919468",
-    "post_date": "23 hours ago"
-  },
   "https://linkedin.com/jobs/view/software-engineer-game-game-server-at-momo-m-service-4397537575": {
     "title": "Software Engineer, Game (Game Server)",
     "company": "MoMo (M_Service)",
@@ -88,5 +82,59 @@
     "company": "Ant",
     "sent_at": "2026-04-22T02:27:31.351795",
     "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-at-nab-innovation-centre-vietnam-4404955923": {
+    "title": "Senior Site Reliability Engineer",
+    "company": "NAB",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/mobile-engineer-ios-react-native-at-momo-m-service-4402434452": {
+    "title": "Mobile Engineer (iOS, React Native)",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4132130061": {
+    "title": "Full Stack Engineer",
+    "company": "WorldQuant",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/quantitative-research-intern-llms-ai-agents-at-worldquant-4132261540": {
+    "title": "Quantitative Research Intern (LLMs & AI Agents)",
+    "company": "WorldQuant",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/middle-senior-java-developer-at-cmc-global-company-limited-4404260211": {
+    "title": "Middle/Senior Java Developer",
+    "company": "CMC",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/data-engineer-hcm-hn-at-fpt-software-4404257333": {
+    "title": "Data Engineer - HCM/HN",
+    "company": "FPT Software",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-test-engineer-at-kms-technology-inc-4402424181": {
+    "title": "Senior Full-Stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-test-engineer-at-kms-technology-inc-4402416673": {
+    "title": "Full-stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-senior-full-stack-test-engineer-at-kms-technology-inc-4402229338": {
+    "title": "Junior/ Senior Full-Stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-23T02:31:03.104471",
+    "post_date": "23 hours ago"
   }
 }
