@@ -1,40 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-data-scientist-at-zalopay-4404044304": {
-    "title": "Senior Data Scientist",
-    "company": "Zalopay",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-full-stack-developer-fiza-javascript-java-at-zalo-4403361876": {
-    "title": "Senior Full Stack Developer, Fiza (JavaScript, Java)",
-    "company": "Zalo",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-qc-engineer-at-zalo-4403622480": {
-    "title": "Automation QC Engineer",
-    "company": "Zalo",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/solution-architect-net-java-%243k-%244k-at-fpt-software-4403340597": {
-    "title": "Solution Architect (.NET/Java) ($3k-$4k)",
-    "company": "FPT Software",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/full-stack-engineer-java-%2B-reactjs-hn-hcm-at-fpt-software-4403695664": {
-    "title": "Full Stack Engineer (Java + Reactjs) - HN/HCM",
-    "company": "FPT Software",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "12 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-based-in-da-nang-odh-may-2026-at-kms-technology-inc-4401603541": {
-    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester), based in Da Nang [ODH - May 2026]",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-21T02:29:44.838657",
-    "post_date": "19 hours ago"
-  },
   "https://linkedin.com/jobs/view/senior-software-engineer-java-at-zalopay-4404522936": {
     "title": "Senior Software Engineer (Java)",
     "company": "Zalopay",
@@ -238,5 +202,29 @@
     "company": "Endava",
     "sent_at": "2026-04-24T02:31:35.085982",
     "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/mobile-engineer-android-ios-platform-team-at-zalo-4405073356": {
+    "title": "Mobile Engineer (Android/iOS), Platform Team",
+    "company": "Zalo",
+    "sent_at": "2026-04-25T02:13:13.081364",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/front-end-developer-%2B-hybrid-mobile-ionic-cordova-at-dxc-technology-vietnam-4406137745": {
+    "title": "Front-end Developer + Hybrid Mobile (Ionic/Cordova)",
+    "company": "DXC",
+    "sent_at": "2026-04-25T02:13:13.081364",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-systems-support-engineer-at-thoughtworks-4384242846": {
+    "title": "Senior Systems Support Engineer",
+    "company": "Thoughtworks",
+    "sent_at": "2026-04-25T02:13:13.081364",
+    "post_date": "8 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4403293308": {
+    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-25T02:13:13.081364",
+    "post_date": "23 hours ago"
   }
 }
