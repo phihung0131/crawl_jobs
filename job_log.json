@@ -1,28 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/mobile-engineer-android-ios-platform-team-at-zalo-4405073356": {
-    "title": "Mobile Engineer (Android/iOS), Platform Team",
-    "company": "Zalo",
-    "sent_at": "2026-04-25T02:13:13.081364",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/front-end-developer-%2B-hybrid-mobile-ionic-cordova-at-dxc-technology-vietnam-4406137745": {
-    "title": "Front-end Developer + Hybrid Mobile (Ionic/Cordova)",
-    "company": "DXC",
-    "sent_at": "2026-04-25T02:13:13.081364",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-systems-support-engineer-at-thoughtworks-4384242846": {
-    "title": "Senior Systems Support Engineer",
-    "company": "Thoughtworks",
-    "sent_at": "2026-04-25T02:13:13.081364",
-    "post_date": "8 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4403293308": {
-    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
-    "company": "KMS Technology",
-    "sent_at": "2026-04-25T02:13:13.081364",
-    "post_date": "23 hours ago"
-  },
   "https://linkedin.com/jobs/view/qa-engineer-webtoon-at-naver-vietnam-4405734935": {
     "title": "QA Engineer - Webtoon",
     "company": "NAVER VIETNAM",
@@ -34,5 +10,23 @@
     "company": "NAVER VIETNAM",
     "sent_at": "2026-04-26T02:36:34.489427",
     "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/lead-software-engineer-at-zalo-4407167448": {
+    "title": "Lead Software Engineer",
+    "company": "Zalo",
+    "sent_at": "2026-04-28T02:46:04.885921",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-backend-at-shopback-4281770937": {
+    "title": "Software Engineer Intern - Backend",
+    "company": "ShopBack",
+    "sent_at": "2026-04-28T02:46:04.885921",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-lead-katalon-malaysia-on-site-at-kms-technology-inc-4406246955": {
+    "title": "Automation Test Lead (Katalon) - Malaysia On-site",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-28T02:46:04.885921",
+    "post_date": "1 minute ago"
   }
 }
