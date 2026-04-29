@@ -1,16 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/qa-engineer-webtoon-at-naver-vietnam-4405734935": {
-    "title": "QA Engineer - Webtoon",
-    "company": "NAVER VIETNAM",
-    "sent_at": "2026-04-26T02:36:34.489427",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/qa-engineer-naver-clip-at-naver-vietnam-4405746180": {
-    "title": "QA Engineer - Naver Clip",
-    "company": "NAVER VIETNAM",
-    "sent_at": "2026-04-26T02:36:34.489427",
-    "post_date": "1 day ago"
-  },
   "https://linkedin.com/jobs/view/lead-software-engineer-at-zalo-4407167448": {
     "title": "Lead Software Engineer",
     "company": "Zalo",
@@ -28,5 +16,29 @@
     "company": "KMS Technology",
     "sent_at": "2026-04-28T02:46:04.885921",
     "post_date": "1 minute ago"
+  },
+  "https://linkedin.com/jobs/view/senior-bridge-engineer-at-dxc-technology-vietnam-4378729592": {
+    "title": "Senior Bridge Engineer",
+    "company": "DXC",
+    "sent_at": "2026-04-29T02:45:46.600797",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4406267415": {
+    "title": "Java Software Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-04-29T02:45:46.600797",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-test-engineer-at-kms-technology-inc-4405538354": {
+    "title": "Full-stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-29T02:45:46.600797",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-engineer-at-kms-technology-inc-4405519340": {
+    "title": "Automation Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-04-29T02:45:46.600797",
+    "post_date": "18 hours ago"
   }
 }
