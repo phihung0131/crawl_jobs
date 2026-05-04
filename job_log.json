@@ -1,46 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/middle-senior-software-engineer-backend-at-momo-m-service-4406025921": {
-    "title": "(Middle/Senior) - Software Engineer (Backend)",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "21 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-momo-m-service-4406039567": {
-    "title": "Java Software Engineer",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-c%E1%BA%A7u-n%E1%BB%91i-brse-at-dxc-technology-vietnam-4378729592": {
-    "title": "Kỹ sư Cầu nối (BrSE)",
-    "company": "DXC",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/quality-engineer-at-cmc-global-company-limited-4406929858": {
-    "title": "Quality Engineer",
-    "company": "CMC",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/data-engineer-hybrid-hcm-hn-at-fpt-software-4406945876": {
-    "title": "Data Engineer - Hybrid (HCM/HN)",
-    "company": "FPT Software",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-developer-java-at-endava-4328647277": {
-    "title": "Senior Developer (Java)",
-    "company": "Endava",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-developer-kotlin-java-at-endava-4395937803": {
-    "title": "Senior Developer (Kotlin/Java)",
-    "company": "Endava",
-    "sent_at": "2026-04-30T02:46:51.928103",
-    "post_date": "15 hours ago"
-  },
   "https://linkedin.com/jobs/view/senior-middle-software-engineer-java-tr%E1%BB%A3-l%C3%BD-%C4%83n-ch%C6%A1i-at-momo-m-service-4407265940": {
     "title": "Senior/Middle Software Engineer (Java), Trợ lý ăn chơi",
     "company": "MoMo (M_Service)",
@@ -64,5 +22,23 @@
     "company": "Endava",
     "sent_at": "2026-05-03T02:45:35.276001",
     "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
+    "title": "Application Enhancement Lead",
+    "company": "Thoughtworks",
+    "sent_at": "2026-05-04T02:42:56.240972",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fresher-java-software-engineer-odh-may-2026-at-kms-technology-inc-4407292955": {
+    "title": "Fresher Java Software Engineer [ODH - May 2026]",
+    "company": "KMS Technology",
+    "sent_at": "2026-05-04T02:42:56.240972",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-odh-may-2026-at-kms-technology-inc-4407703596": {
+    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester) [ODH - May 2026]",
+    "company": "KMS Technology",
+    "sent_at": "2026-05-04T02:42:56.240972",
+    "post_date": "18 hours ago"
   }
 }
