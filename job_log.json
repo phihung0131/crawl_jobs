@@ -1,28 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-middle-software-engineer-java-tr%E1%BB%A3-l%C3%BD-%C4%83n-ch%C6%A1i-at-momo-m-service-4407265940": {
-    "title": "Senior/Middle Software Engineer (Java), Trợ lý ăn chơi",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-05-03T02:45:35.276001",
-    "post_date": "10 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-software-engineer-at-worldquant-4400669874": {
-    "title": "Senior Software Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-05-03T02:45:35.276001",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-developer-java-at-endava-4377663028": {
-    "title": "Senior Developer (Java)",
-    "company": "Endava",
-    "sent_at": "2026-05-03T02:45:35.276001",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/c%2B%2B-developer-backend-at-endava-4387794087": {
-    "title": "C++ Developer (Backend)",
-    "company": "Endava",
-    "sent_at": "2026-05-03T02:45:35.276001",
-    "post_date": "16 hours ago"
-  },
   "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
     "title": "Application Enhancement Lead",
     "company": "Thoughtworks",
@@ -178,5 +154,47 @@
     "company": "FPT Software",
     "sent_at": "2026-05-06T02:41:17.236925",
     "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-fullstack-developer-at-axon-active-agile-software-development-company-4409900615": {
+    "title": "Java Fullstack Developer",
+    "company": "Axon Active",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-engineer-at-axon-active-agile-software-development-company-4409796956": {
+    "title": "Full Stack Engineer",
+    "company": "Axon Active",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-fullstack-java-reactjs-developer-at-axon-active-agile-software-development-company-4409904168": {
+    "title": "Senior Fullstack (Java/ReactJS) Developer",
+    "company": "Axon Active",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-scala-java-adtima-at-zalo-4409778151": {
+    "title": "Senior Software Engineer (Scala, Java), Adtima",
+    "company": "Zalo",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-middle-at-dxc-technology-vietnam-4410967708": {
+    "title": "Java Developer (Middle)",
+    "company": "DXC",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-consultant-software-development-at-thoughtworks-4207936037": {
+    "title": "Lead Consultant, Software Development",
+    "company": "Thoughtworks",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "11 hours ago"
+  },
+  "https://linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-java-at-cmc-global-company-limited-4319878739": {
+    "title": "Lập trình viên Java",
+    "company": "CMC",
+    "sent_at": "2026-05-07T02:43:23.197918",
+    "post_date": "13 minutes ago"
   }
 }
