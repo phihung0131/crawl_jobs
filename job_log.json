@@ -1,64 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
-    "title": "Application Enhancement Lead",
-    "company": "Thoughtworks",
-    "sent_at": "2026-05-04T02:42:56.240972",
-    "post_date": "9 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-java-software-engineer-odh-may-2026-at-kms-technology-inc-4407292955": {
-    "title": "Fresher Java Software Engineer [ODH - May 2026]",
-    "company": "KMS Technology",
-    "sent_at": "2026-05-04T02:42:56.240972",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-odh-may-2026-at-kms-technology-inc-4407703596": {
-    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester) [ODH - May 2026]",
-    "company": "KMS Technology",
-    "sent_at": "2026-05-04T02:42:56.240972",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/middle-lead-java-engineer-at-nab-innovation-centre-vietnam-4408639682": {
-    "title": "[Middle - Lead] Java Engineer",
-    "company": "NAB",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/medior-senior-lead-java-engineer-at-nab-innovation-centre-vietnam-4410013277": {
-    "title": "[Medior - Senior - Lead] Java Engineer",
-    "company": "NAB",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-quality-engineer-at-nab-innovation-centre-vietnam-4410012517": {
-    "title": "Senior Quality Engineer",
-    "company": "NAB",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-software-engineer-at-zalo-4407785163": {
-    "title": "Senior Software Engineer",
-    "company": "Zalo",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/front-end-developer-%2B-hybrid-mobile-ionic-cordova-at-dxc-technology-vietnam-4406137745": {
-    "title": "Front-end Developer + Hybrid Mobile (Ionic/Cordova)",
-    "company": "DXC",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "1 hour ago"
-  },
-  "https://linkedin.com/jobs/view/embedded-software-engineer-gas-oil-at-hcltech-vietnam-4380409169": {
-    "title": "Embedded Software Engineer (Gas & Oil)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-test-us-uk-market-at-fpt-software-4408657280": {
-    "title": "Automation Test (US-UK Market)",
-    "company": "FPT Software",
-    "sent_at": "2026-05-05T02:36:48.572702",
-    "post_date": "17 hours ago"
-  },
   "https://linkedin.com/jobs/view/software-engineer-golang-at-zalopay-4410527717": {
     "title": "Software Engineer (Golang)",
     "company": "Zalopay",
@@ -196,5 +136,47 @@
     "company": "CMC",
     "sent_at": "2026-05-07T02:43:23.197918",
     "post_date": "13 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/senior-back-end-developer-java-at-zalo-4411472776": {
+    "title": "Senior Back End Developer, Java",
+    "company": "Zalo",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-ph%E1%BA%A7n-m%E1%BB%81m-n3-n2-ti%E1%BA%BFng-nh%E1%BA%ADt-at-dxc-technology-vietnam-4384116279": {
+    "title": "Kỹ Sư Phần Mềm (N3/N2 Tiếng Nhật)",
+    "company": "DXC",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-java-developer-at-cmc-global-company-limited-4410468500": {
+    "title": "Junior Java Developer",
+    "company": "CMC",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "39 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/quality-assurance-automation-engineer-at-cmc-global-company-limited-4410451066": {
+    "title": "Quality Assurance Automation Engineer",
+    "company": "CMC",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fullstack-developer-java-desktop-app-at-hcltech-vietnam-4397220605": {
+    "title": "Fullstack Developer (Java, Desktop App)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/site-reliability-engineer-intern-at-shopback-4362221283": {
+    "title": "Site Reliability Engineer Intern",
+    "company": "ShopBack",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-senior-lead-at-fpt-software-4411002003": {
+    "title": "Automation Test (Senior/Lead)",
+    "company": "FPT Software",
+    "sent_at": "2026-05-08T02:48:11.527978",
+    "post_date": "29 minutes ago"
   }
 }
