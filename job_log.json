@@ -1,40 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-home-ownership-at-nab-innovation-centre-vietnam-4412597512": {
-    "title": "Senior Site Reliability Engineer - Home Ownership",
-    "company": "NAB",
-    "sent_at": "2026-05-11T02:57:20.260474",
-    "post_date": "9 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/staff-software-engineer-golang-java-at-zalopay-4412682571": {
-    "title": "Staff Software Engineer (Golang/Java)",
-    "company": "Zalopay",
-    "sent_at": "2026-05-12T02:49:18.089389",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-lead-platform-engineer-nabserv-at-nab-innovation-centre-vietnam-4412646487": {
-    "title": "Senior / Lead Platform Engineer - Nabserv",
-    "company": "NAB",
-    "sent_at": "2026-05-12T02:49:18.089389",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-full-stack-developer-zalo-business-solutions-java-springboot-reactjs-ai-at-zalo-4412631671": {
-    "title": "Senior Full Stack Developer, Zalo Business Solutions (Java Springboot, ReactJS, AI)",
-    "company": "Zalo",
-    "sent_at": "2026-05-12T02:49:18.089389",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4412641744": {
-    "title": "Java Software Engineer",
-    "company": "CMC",
-    "sent_at": "2026-05-12T02:49:18.089389",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-android-ios-developer-good-english-communication-at-fpt-software-4412679304": {
-    "title": "Senior Android/iOS Developer - Good English Communication",
-    "company": "FPT Software",
-    "sent_at": "2026-05-12T02:49:18.089389",
-    "post_date": "17 hours ago"
-  },
   "https://linkedin.com/jobs/view/senior-performance-test-engineer-daf-at-nab-innovation-centre-vietnam-4413242869": {
     "title": "Senior Performance Test Engineer - DAF",
     "company": "NAB",
@@ -202,5 +166,71 @@
     "company": "KMS Technology",
     "sent_at": "2026-05-14T02:56:57.661585",
     "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/devops-engineering-manager-at-nab-innovation-centre-vietnam-4414545154": {
+    "title": "DevOps Engineering Manager",
+    "company": "NAB",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-fullstack-developer-at-axon-active-agile-software-development-company-4415000033": {
+    "title": "Java Fullstack Developer",
+    "company": "Axon Active",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/zalo-tech-fresher-2026-at-zalo-4414567715": {
+    "title": "Zalo Tech Fresher 2026",
+    "company": "Zalo",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/sales-support-specialist-zalo-business-solution-at-zalo-4413947853": {
+    "title": "Sales Support Specialist, Zalo Business Solution",
+    "company": "Zalo",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/senior-product-owner-growth-at-zalo-4414538170": {
+    "title": "Senior Product Owner (Growth)",
+    "company": "Zalo",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/net-developer-at-dxc-technology-vietnam-4414568467": {
+    "title": ".NET Developer",
+    "company": "DXC",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-software-engineer-java-at-thoughtworks-4414457433": {
+    "title": "Lead Software Engineer (Java)",
+    "company": "Thoughtworks",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fullstack-software-engineer-node-js-react-at-thoughtworks-4414444477": {
+    "title": "Fullstack Software Engineer (Node.js, React)",
+    "company": "Thoughtworks",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-fullstack-software-engineer-node-js-react-at-thoughtworks-4414443444": {
+    "title": "Senior Fullstack Software Engineer (Node.js, React)",
+    "company": "Thoughtworks",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/quantitative-research-intern-llms-ai-agents-at-worldquant-4132261540": {
+    "title": "Quantitative Research Intern (LLMs & AI Agents)",
+    "company": "WorldQuant",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-tester-at-endava-4393404495": {
+    "title": "Senior Tester",
+    "company": "Endava",
+    "sent_at": "2026-05-15T02:57:55.857405",
+    "post_date": "16 hours ago"
   }
 }
