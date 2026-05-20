@@ -1,10 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-java-engineer-frontline-atm-technology-at-nab-innovation-centre-vietnam-4415809801": {
-    "title": "Senior Java Engineer - Frontline ATM Technology",
-    "company": "NAB",
-    "sent_at": "2026-05-17T02:54:15.737121",
-    "post_date": "22 hours ago"
-  },
   "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4412241390": {
     "title": "Java Software Engineer (Spring/Azure/AWS)",
     "company": "KMS Technology",
@@ -34,5 +28,101 @@
     "company": "KMS Technology",
     "sent_at": "2026-05-19T03:00:45.422529",
     "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/quality-engineer-automation-fraud-at-nab-innovation-centre-vietnam-4416485965": {
+    "title": "Quality Engineer (Automation) - Fraud",
+    "company": "NAB",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-crmhub-at-momo-m-service-4412898618": {
+    "title": "Senior Software Engineer, CRMHub",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-java-developer-at-dxc-technology-vietnam-4416485698": {
+    "title": "Junior Java Developer",
+    "company": "DXC",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4416494714": {
+    "title": "Java Software Engineer",
+    "company": "DXC",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/reactjs-engineers-%2Bjava-at-dxc-technology-vietnam-4416487795": {
+    "title": "ReactJS Engineers (+Java)",
+    "company": "DXC",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4416485738": {
+    "title": "Java Developer",
+    "company": "DXC",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4415757835": {
+    "title": "Java Software Engineer",
+    "company": "CMC",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/technical-lead-java-at-hcltech-vietnam-4415745539": {
+    "title": "Technical Lead (Java)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/data-analytics-engineer-at-hcltech-vietnam-4415787510": {
+    "title": "Data Analytics Engineer",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/hcltech-x-anz-data-engineer-aws-at-hcltech-vietnam-4415780555": {
+    "title": "[HCLTech x ANZ] Data Engineer (AWS)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/hcl-tech-x-anz-bank-frontend-developer-at-hcltech-vietnam-4415779166": {
+    "title": "[HCL Tech x ANZ Bank] Frontend Developer",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-backend-at-shopback-4281770937": {
+    "title": "Software Engineer Intern - Backend",
+    "company": "ShopBack",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4412894087": {
+    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
+    "company": "KMS Technology",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-test-engineer-at-kms-technology-inc-4412874371": {
+    "title": "Senior Full-Stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/qa-lead-at-endava-4415766123": {
+    "title": "QA Lead",
+    "company": "Endava",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-tester-at-endava-4415770070": {
+    "title": "Senior Tester",
+    "company": "Endava",
+    "sent_at": "2026-05-20T03:00:54.513717",
+    "post_date": "19 hours ago"
   }
 }
