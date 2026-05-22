@@ -1,34 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4412241390": {
-    "title": "Java Software Engineer (Spring/Azure/AWS)",
-    "company": "KMS Technology",
-    "sent_at": "2026-05-18T03:31:45.624823",
-    "post_date": "1 hour ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-eng-non-eng-at-cmc-global-company-limited-4412850945": {
-    "title": "Java Developer (Eng/Non-Eng)",
-    "company": "CMC",
-    "sent_at": "2026-05-19T03:00:45.422529",
-    "post_date": "1 minute ago"
-  },
-  "https://linkedin.com/jobs/view/python-developer-at-fpt-software-4415614652": {
-    "title": "Python Developer",
-    "company": "FPT Software",
-    "sent_at": "2026-05-19T03:00:45.422529",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4412252279": {
-    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
-    "company": "KMS Technology",
-    "sent_at": "2026-05-19T03:00:45.422529",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-full-stack-test-engineer-at-kms-technology-inc-4412242830": {
-    "title": "Senior Full-Stack Test Engineer",
-    "company": "KMS Technology",
-    "sent_at": "2026-05-19T03:00:45.422529",
-    "post_date": "20 hours ago"
-  },
   "https://linkedin.com/jobs/view/quality-engineer-automation-fraud-at-nab-innovation-centre-vietnam-4416485965": {
     "title": "Quality Engineer (Automation) - Fraud",
     "company": "NAB",
@@ -148,5 +118,83 @@
     "company": "HCLTech Vietnam",
     "sent_at": "2026-05-21T03:30:55.485783",
     "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-scientist-fraud-detection-at-zalopay-4417489101": {
+    "title": "Senior Data Scientist (Fraud Detection)",
+    "company": "Zalopay",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/merchant-operations-collaborator-at-zalopay-4417462558": {
+    "title": "Merchant Operations Collaborator",
+    "company": "Zalopay",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-frontend-developer-reactjs-at-zalopay-4414071190": {
+    "title": "Senior Frontend Developer (ReactJS)",
+    "company": "Zalopay",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "9 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/senior-production-support-engineer-at-nab-innovation-centre-vietnam-4417487630": {
+    "title": "Senior Production Support Engineer",
+    "company": "NAB",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/qc-automation-at-dxc-technology-vietnam-4417480313": {
+    "title": "QC Automation",
+    "company": "DXC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/workplace-delivery-consultant-at-dxc-technology-vietnam-4417454744": {
+    "title": "Workplace Delivery Consultant",
+    "company": "DXC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-business-analyst-at-dxc-technology-vietnam-4405496557": {
+    "title": "Senior Business Analyst",
+    "company": "DXC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/principal-net-developer-at-dxc-technology-vietnam-4417464646": {
+    "title": "Principal .NET Developer",
+    "company": "DXC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/data-engineer-at-worldquant-4399222978": {
+    "title": "Data Engineer",
+    "company": "WorldQuant",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-banking-at-cmc-global-company-limited-4416788514": {
+    "title": "Java Developer (Banking)",
+    "company": "CMC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "1 minute ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-at-cmc-global-company-limited-4416759466": {
+    "title": "Java Developer",
+    "company": "CMC",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/dft-engineer-at-hcltech-vietnam-4416385881": {
+    "title": "DFT Engineer",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/design-verification-engineer-at-hcltech-vietnam-4416505135": {
+    "title": "Design Verification Engineer",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-05-22T03:30:04.068117",
+    "post_date": "19 hours ago"
   }
 }
