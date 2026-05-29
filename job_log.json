@@ -1,28 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/data-scientist-recommendation-ranking-classification-at-momo-m-service-4414866149": {
-    "title": "Data Scientist, Recommendation/ranking /classification",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-05-25T03:38:58.624807",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-fullstack-developer-java-reactjs-ai-at-zalo-4418685526": {
-    "title": "Senior Fullstack Developer (Java, ReactJS, AI)",
-    "company": "Zalo",
-    "sent_at": "2026-05-25T03:38:58.624807",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-at-cmc-global-company-limited-4417832532": {
-    "title": "Software Engineer",
-    "company": "CMC",
-    "sent_at": "2026-05-25T03:38:58.624807",
-    "post_date": "1 hour ago"
-  },
-  "https://linkedin.com/jobs/view/data-engineer-at-fpt-software-4417828707": {
-    "title": "Data Engineer",
-    "company": "FPT Software",
-    "sent_at": "2026-05-25T03:38:58.624807",
-    "post_date": "20 minutes ago"
-  },
   "https://linkedin.com/jobs/view/middle-senior-data-scientist-recommendation-ranking-classification-at-momo-m-service-4414866149": {
     "title": "Middle/Senior Data Scientist, Recommendation/ranking /classification",
     "company": "MoMo (M_Service)",
@@ -244,5 +220,59 @@
     "company": "Endava",
     "sent_at": "2026-05-28T02:56:47.454480",
     "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/growth-marketing-executive-ecommerce-ota-at-zalopay-4420249078": {
+    "title": "Growth Marketing Executive (Ecommerce & OTA)",
+    "company": "Zalopay",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-momo-m-service-4406039567": {
+    "title": "Java Software Engineer",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-data-engineering-at-momo-m-service-4413665796": {
+    "title": "Lead - Data Engineering",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/strategic-partnerships-lead-new-business-at-zalo-4420290964": {
+    "title": "Strategic Partnerships Lead (New Business)",
+    "company": "Zalo",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-middle-at-dxc-technology-vietnam-4410967708": {
+    "title": "Java Developer (Middle)",
+    "company": "DXC",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4413914953": {
+    "title": "Java Software Engineer",
+    "company": "DXC",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4418884749": {
+    "title": "Java Software Engineer",
+    "company": "CMC",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/project-manager-at-fpt-software-4419397056": {
+    "title": "Project Manager",
+    "company": "FPT Software",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "11 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/ai-scientist-%E2%80%93-generative-ai-agentic-systems-hn-hcm-at-fpt-software-4418890668": {
+    "title": "AI Scientist – Generative AI & Agentic Systems (HN/HCM)",
+    "company": "FPT Software",
+    "sent_at": "2026-05-29T03:00:33.266273",
+    "post_date": "22 hours ago"
   }
 }
