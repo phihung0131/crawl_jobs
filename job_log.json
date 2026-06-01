@@ -1,58 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/growth-marketing-executive-ecommerce-ota-at-zalopay-4420249078": {
-    "title": "Growth Marketing Executive (Ecommerce & OTA)",
-    "company": "Zalopay",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-momo-m-service-4406039567": {
-    "title": "Java Software Engineer",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-data-engineering-at-momo-m-service-4413665796": {
-    "title": "Lead - Data Engineering",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/strategic-partnerships-lead-new-business-at-zalo-4420290964": {
-    "title": "Strategic Partnerships Lead (New Business)",
-    "company": "Zalo",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-middle-at-dxc-technology-vietnam-4410967708": {
-    "title": "Java Developer (Middle)",
-    "company": "DXC",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4413914953": {
-    "title": "Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4418884749": {
-    "title": "Java Software Engineer",
-    "company": "CMC",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/project-manager-at-fpt-software-4419397056": {
-    "title": "Project Manager",
-    "company": "FPT Software",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "11 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/ai-scientist-%E2%80%93-generative-ai-agentic-systems-hn-hcm-at-fpt-software-4418890668": {
-    "title": "AI Scientist – Generative AI & Agentic Systems (HN/HCM)",
-    "company": "FPT Software",
-    "sent_at": "2026-05-29T03:00:33.266273",
-    "post_date": "22 hours ago"
-  },
   "https://linkedin.com/jobs/view/manager-legal-compliance-company-secretary-at-nab-innovation-centre-vietnam-4420691343": {
     "title": "Manager - Legal, Compliance & Company Secretary",
     "company": "NAB",
@@ -112,5 +58,65 @@
     "company": "HCLTech Vietnam",
     "sent_at": "2026-05-31T03:38:27.736381",
     "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-engineer-frontline-atm-technology-at-nab-innovation-centre-vietnam-4415809801": {
+    "title": "Senior Java Engineer - Frontline ATM Technology",
+    "company": "NAB",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/engineering-manager-messaging-chatbot-at-nab-innovation-centre-vietnam-4382350600": {
+    "title": "Engineering Manager - Messaging & Chatbot",
+    "company": "NAB",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-home-ownership-at-nab-innovation-centre-vietnam-4412597512": {
+    "title": "Senior Site Reliability Engineer - Home Ownership",
+    "company": "NAB",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-consultant-talent-acquisition-at-nab-innovation-centre-vietnam-4421643921": {
+    "title": "Senior/Consultant Talent Acquisition",
+    "company": "NAB",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "38 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-cmc-global-company-limited-4422581107": {
+    "title": "Java Software Engineer",
+    "company": "CMC",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-developer-java-%2B-reactjs-at-cmc-global-company-limited-4422576088": {
+    "title": "Full-stack Developer (Java + ReactJS)",
+    "company": "CMC",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-test-engineer-at-kms-technology-inc-4418398990": {
+    "title": "Senior Full-Stack Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/automation-test-engineer-at-kms-technology-inc-4418388918": {
+    "title": "Automation Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/senior-automation-test-engineer-at-kms-technology-inc-4418384958": {
+    "title": "Senior Automation Test Engineer",
+    "company": "KMS Technology",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-test-engineer-manual-automation-at-kms-technology-inc-4418701986": {
+    "title": "Full-stack Test Engineer (Manual, Automation)",
+    "company": "KMS Technology",
+    "sent_at": "2026-06-01T03:51:19.611568",
+    "post_date": "1 hour ago"
   }
 }
