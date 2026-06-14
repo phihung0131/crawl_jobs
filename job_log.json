@@ -1,178 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/engineer-manager-at-nab-innovation-centre-vietnam-4425578566": {
-    "title": "Engineer Manager",
-    "company": "NAB",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/manager-data-reporting-insights-at-nab-innovation-centre-vietnam-4425588401": {
-    "title": "Manager, Data Reporting & Insights",
-    "company": "NAB",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/manager-data-at-momo-m-service-4418746914": {
-    "title": "Manager - Data",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/automation-qc-engineer-at-zalo-4425820120": {
-    "title": "Automation QC Engineer",
-    "company": "Zalo",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-ai-engineer-at-vng-4425585854": {
-    "title": "Senior AI Engineer",
-    "company": "VNG",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-tester-at-dxc-technology-vietnam-4413927091": {
-    "title": "Automation Tester",
-    "company": "DXC",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "3 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4417104408": {
-    "title": "Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "2 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4413914953": {
-    "title": "Java Software Engineer",
-    "company": "DXC",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "2 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/data-engineer-c%2B%2B-at-worldquant-4416646028": {
-    "title": "Data Engineer (C++)",
-    "company": "WorldQuant",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-oracle-developer-at-cmc-global-company-limited-4424566101": {
-    "title": "Java Oracle Developer",
-    "company": "CMC",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-engineer-twincat-at-hcltech-vietnam-4425563968": {
-    "title": "Automation Engineer (Twincat)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-backend-at-shopback-3736620184": {
-    "title": "Software Engineer - Backend",
-    "company": "ShopBack",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-at-kms-technology-inc-4422248875": {
-    "title": "Senior Java Software Engineer (Java/Spring/Azure)",
-    "company": "KMS Technology",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-at-kms-technology-inc-4422267198": {
-    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester)",
-    "company": "KMS Technology",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/full-stack-test-engineer-manual-automation-at-kms-technology-inc-4425553856": {
-    "title": "Full-stack Test Engineer (Manual, Automation)",
-    "company": "KMS Technology",
-    "sent_at": "2026-06-10T03:33:31.584199",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-engineer-at-nab-innovation-centre-vietnam-4426051926": {
-    "title": "Senior Java Engineer",
-    "company": "NAB",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-lead-business-analyst-data-focus-at-nab-innovation-centre-vietnam-4426762330": {
-    "title": "Senior/Lead Business Analyst (data focus)",
-    "company": "NAB",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-project-analyst-at-nab-innovation-centre-vietnam-4426746562": {
-    "title": "Senior Project Analyst",
-    "company": "NAB",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-database-administrator-oracle-postgesql-at-nab-innovation-centre-vietnam-4426760324": {
-    "title": "Senior Database Administrator (Oracle/PostgeSQL)",
-    "company": "NAB",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-senior-software-engineer-crmhub-at-momo-m-service-4422789851": {
-    "title": "Junior/ Senior - Software Engineer (CRMHub)",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/senior-software-engineer-reactjs-zalo-pc-at-zalo-4426312321": {
-    "title": "(Senior) Software Engineer, ReactJS, Zalo PC",
-    "company": "Zalo",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/business-development-executive-zalo-video-at-zalo-4426314087": {
-    "title": "Business Development Executive, Zalo Video",
-    "company": "Zalo",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/lead-data-scientist-adtima-at-zalo-4425820098": {
-    "title": "Lead Data Scientist, Adtima",
-    "company": "Zalo",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/fullstack-developer-%E2%80%93-fresher-graduate-trainee-at-hcltech-vietnam-4426048511": {
-    "title": "Fullstack Developer – Fresher (Graduate Trainee)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-intern-backend-at-shopback-4281770937": {
-    "title": "Software Engineer Intern - Backend",
-    "company": "ShopBack",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/ios-developer-at-fpt-software-4426197522": {
-    "title": "iOS Developer",
-    "company": "FPT Software",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "36 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/quality-assurance-lead-at-fpt-software-4426198459": {
-    "title": "Quality Assurance Lead",
-    "company": "FPT Software",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "55 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/embedded-autosar-bsw-engineer-intermediate-english-at-fpt-software-4426056206": {
-    "title": "Embedded AUTOSAR BSW Engineer ( Intermediate English)",
-    "company": "FPT Software",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fresher-full-stack-test-engineer-qa-qc-tester-at-kms-technology-inc-4426738877": {
-    "title": "Fresher Full-stack Test Engineer (QA/QC/Tester)",
-    "company": "KMS Technology",
-    "sent_at": "2026-06-11T03:45:15.985442",
-    "post_date": "20 hours ago"
-  },
   "https://linkedin.com/jobs/view/senior-full-stack-engineer-zalo-at-zalo-4427582295": {
     "title": "Senior Full Stack Engineer, Zalo",
     "company": "Zalo",
@@ -340,5 +166,41 @@
     "company": "Endava",
     "sent_at": "2026-06-13T03:33:02.200832",
     "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/staff-software-engineer-architecture-system-design-at-zalopay-4428350155": {
+    "title": "Staff Software Engineer (Architecture / System Design)",
+    "company": "Zalopay",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fp-a-executive-financial-planning-analysis-at-zalopay-4427968836": {
+    "title": "FP&A Executive (Financial Planning & Analysis)",
+    "company": "Zalopay",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/worldquant-technology-talent-network-at-worldquant-4335475057": {
+    "title": "WorldQuant Technology Talent Network",
+    "company": "WorldQuant",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/generative-ai-engineer-banking-ai-assistant-from-4-years-at-hcltech-vietnam-4426937445": {
+    "title": "Generative AI Engineer (Banking AI Assistant) - From 4 Years",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/automation-engineer-scada-python-at-hcltech-vietnam-4415004784": {
+    "title": "Automation Engineer (Scada/Python)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/mechanical-engineer-cad-creo-at-hcltech-vietnam-4385654671": {
+    "title": "Mechanical Engineer (CAD/Creo)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-06-14T03:50:06.058834",
+    "post_date": "1 day ago"
   }
 }
