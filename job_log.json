@@ -1,40 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-agile-business-analyst-transaction-banking-at-nab-innovation-centre-vietnam-4430906026": {
-    "title": "Senior Agile Business Analyst - Transaction Banking",
-    "company": "NAB",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/senior-project-analyst-finance-change-management-focus-at-nab-innovation-centre-vietnam-4430900602": {
-    "title": "Senior Project Analyst (Finance & Change Management focus)",
-    "company": "NAB",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/senior-ios-developer-at-zalo-4430061763": {
-    "title": "Senior iOS Developer",
-    "company": "Zalo",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-intern-qa-at-shopback-4350676078": {
-    "title": "Software Engineer Intern - QA",
-    "company": "ShopBack",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/business-analyst-3-5%2B-yrs-exp-good-english-at-fpt-software-4429635771": {
-    "title": "Business Analyst (3-5+ yrs exp, Good English)",
-    "company": "FPT Software",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/c-developers-network-linux-at-endava-4342858262": {
-    "title": "C Developers (Network, Linux)",
-    "company": "Endava",
-    "sent_at": "2026-06-21T04:00:26.163666",
-    "post_date": "16 hours ago"
-  },
   "https://linkedin.com/jobs/view/technical-product-owner-open-data-product-at-nab-innovation-centre-vietnam-4431375299": {
     "title": "Technical Product Owner - Open Data Product",
     "company": "NAB",
@@ -280,5 +244,71 @@
     "company": "FPT Software",
     "sent_at": "2026-06-24T03:00:55.412024",
     "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/nab-wecamp-training-program-batch-12-open-for-female-talents-at-nab-innovation-centre-vietnam-4432534832": {
+    "title": "NAB WeCamp Training Program - Batch 12 (Open for female talents)",
+    "company": "NAB",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/product-specialist-zalo-core-at-zalo-4431802095": {
+    "title": "Product Specialist, Zalo Core",
+    "company": "Zalo",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-at-zalo-4432517467": {
+    "title": "Senior Site Reliability Engineer",
+    "company": "Zalo",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-technical-product-owner-zalo-business-solutions-at-zalo-4432534702": {
+    "title": "Senior Technical Product Owner, Zalo Business Solutions",
+    "company": "Zalo",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-it-audit-security-compliance-at-zalo-4432553446": {
+    "title": "Lead IT Audit (Security Compliance)",
+    "company": "Zalo",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/associate-customer-success-manager-zalo-ads-at-zalo-4432562155": {
+    "title": "Associate Customer Success Manager, Zalo Ads",
+    "company": "Zalo",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "10 hours ago"
+  },
+  "https://linkedin.com/jobs/view/automation-tester-at-dxc-technology-vietnam-4422196899": {
+    "title": "Automation Tester",
+    "company": "DXC",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fullstack-software-engineer-javascript-java-kotlin-at-thoughtworks-4431878705": {
+    "title": "Fullstack Software Engineer (Javascript, Java/Kotlin)",
+    "company": "Thoughtworks",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "8 hours ago"
+  },
+  "https://linkedin.com/jobs/view/design-verification-engineer-attractive-benefit-at-hcltech-vietnam-4431210592": {
+    "title": "Design Verification Engineer (attractive benefit)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/senior-penetration-tester-security-at-hcltech-vietnam-4429623345": {
+    "title": "Senior Penetration Tester (Security)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-%241k5-%242k5-at-fpt-software-4432149200": {
+    "title": "Java Developer ($1k5-$2k5)",
+    "company": "FPT Software",
+    "sent_at": "2026-06-25T03:00:06.776958",
+    "post_date": "1 hour ago"
   }
 }
