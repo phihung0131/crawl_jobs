@@ -1,76 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/engineering-manager-digital-identity-access-at-nab-innovation-centre-vietnam-4433068557": {
-    "title": "Engineering Manager - Digital Identity & Access",
-    "company": "NAB",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/technical-architect-fraud-at-nab-innovation-centre-vietnam-4432156790": {
-    "title": "Technical Architect - Fraud",
-    "company": "NAB",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/operations-engineer-ii-at-momo-m-service-4429807828": {
-    "title": "Operations Engineer II",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-ch%C4%83m-s%C3%B3c-kh%C3%A1ch-h%C3%A0ng-at-momo-m-service-4427815740": {
-    "title": "Nhân viên Chăm sóc Khách hàng",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/team-leader-product-at-momo-m-service-4428780928": {
-    "title": "Team Leader - Product",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/senior-software-engineer-java-at-thoughtworks-4413877694": {
-    "title": "Senior Software Engineer (Java)",
-    "company": "Thoughtworks",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "13 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-software-developer-at-thoughtworks-4413886384": {
-    "title": "Lead Software Developer",
-    "company": "Thoughtworks",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "13 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-fullstack-software-engineer-node-js-react-at-thoughtworks-4414443444": {
-    "title": "Senior Fullstack Software Engineer (Node.js, React)",
-    "company": "Thoughtworks",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "9 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-at-worldquant-4432810388": {
-    "title": "Software Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/quantitative-researcher-at-worldquant-3567209448": {
-    "title": "Quantitative Researcher",
-    "company": "WorldQuant",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/hcm-%C4%91n-java-developer-at-cmc-global-company-limited-4432131545": {
-    "title": "[HCM/ĐN] Java Developer",
-    "company": "CMC",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/java-technical-lead-at-cmc-global-company-limited-4432161291": {
-    "title": "Java Technical Lead",
-    "company": "CMC",
-    "sent_at": "2026-06-26T03:30:54.768927",
-    "post_date": "23 hours ago"
-  },
   "https://linkedin.com/jobs/view/consultant-java-engineer-fraud-at-nab-innovation-centre-vietnam-4432964099": {
     "title": "Consultant, Java Engineer - Fraud",
     "company": "NAB",
@@ -214,5 +142,35 @@
     "company": "KMS Technology",
     "sent_at": "2026-06-28T03:37:25.671934",
     "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4434415613": {
+    "title": "Java Developer",
+    "company": "DXC",
+    "sent_at": "2026-06-29T03:42:08.440555",
+    "post_date": "56 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/servicenow-fresher-english%2Bjavascript-at-dxc-technology-vietnam-4434227634": {
+    "title": "ServiceNow Fresher (English+Javascript)",
+    "company": "DXC",
+    "sent_at": "2026-06-29T03:42:08.440555",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/solution-engineer-at-worldquant-4406858657": {
+    "title": "Solution Engineer",
+    "company": "WorldQuant",
+    "sent_at": "2026-06-29T03:42:08.440555",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/python-developer-at-worldquant-4406869605": {
+    "title": "Python Developer",
+    "company": "WorldQuant",
+    "sent_at": "2026-06-29T03:42:08.440555",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4433647255": {
+    "title": "Java Software Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-06-29T03:42:08.440555",
+    "post_date": "20 minutes ago"
   }
 }
