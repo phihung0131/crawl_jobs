@@ -1,76 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-software-engineer-golang-at-zalopay-4433837202": {
-    "title": "Senior Software Engineer (Golang)",
-    "company": "Zalopay",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/growth-marketing-executive-investment-at-zalopay-4433811727": {
-    "title": "Growth Marketing Executive (Investment)",
-    "company": "Zalopay",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/engineering-manager-messaging-chatbot-at-nab-innovation-centre-vietnam-4382350600": {
-    "title": "Engineering Manager - Messaging & Chatbot",
-    "company": "NAB",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-technical-business-analyst-ai-at-nab-innovation-centre-vietnam-4432986077": {
-    "title": "Senior Technical Business Analyst (AI)",
-    "company": "NAB",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-java-ee-at-dxc-technology-vietnam-4434219770": {
-    "title": "Java Developer (Java EE)",
-    "company": "DXC",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/quality-engineer-auto%2Bmanual-at-dxc-technology-vietnam-4434226650": {
-    "title": "Quality Engineer (Auto+Manual)",
-    "company": "DXC",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/generative-ai-engineer-banking-ai-assistant-from-5-years-at-hcltech-vietnam-4426937445": {
-    "title": "Generative AI Engineer (Banking AI Assistant) - From 5 Years",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/security-architect-at-hcltech-vietnam-4432968481": {
-    "title": "Security Architect",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/python-developer-at-fpt-software-4432921893": {
-    "title": "Python Developer",
-    "company": "FPT Software",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/embedded-autosar-developer-middle-senior-at-fpt-software-4433222558": {
-    "title": "Embedded AUTOSAR Developer (Middle/Senior)",
-    "company": "FPT Software",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/it-business-analyst-product-owner-at-fpt-software-4432972074": {
-    "title": "IT Business Analyst/Product Owner",
-    "company": "FPT Software",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-spring-azure-aws-at-kms-technology-inc-4431016395": {
-    "title": "Java Software Engineer (Spring/Azure/AWS)",
-    "company": "KMS Technology",
-    "sent_at": "2026-06-28T03:37:25.671934",
-    "post_date": "1 hour ago"
-  },
   "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4434415613": {
     "title": "Java Developer",
     "company": "DXC",
@@ -364,5 +292,77 @@
     "company": "FPT Software",
     "sent_at": "2026-07-01T03:37:56.259917",
     "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/manager-tech-academy-at-nab-innovation-centre-vietnam-4435547189": {
+    "title": "Manager, Tech Academy",
+    "company": "NAB",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/enablement-consultant-pmo-at-nab-innovation-centre-vietnam-4435518632": {
+    "title": "Enablement Consultant (PMO)",
+    "company": "NAB",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-full-stack-developer-fiza-javascript-java-at-zalo-4434667136": {
+    "title": "Senior Full Stack Developer, Fiza (JavaScript, Java)",
+    "company": "Zalo",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-client-partner-lead-at-zalo-4436152721": {
+    "title": "Senior Client Partner Lead",
+    "company": "Zalo",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "40 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/marketing-manager-data-center-at-vng-4435543271": {
+    "title": "Marketing Manager (Data Center)",
+    "company": "VNG",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/employee-communication-third-party-contract-at-vng-4435517773": {
+    "title": "Employee Communication (Third-Party Contract)",
+    "company": "VNG",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-c%23-net-at-thoughtworks-4413894096": {
+    "title": "Senior Software Engineer (C#/.Net)",
+    "company": "Thoughtworks",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "10 hours ago"
+  },
+  "https://linkedin.com/jobs/view/sap-ps-consultant-at-hcltech-vietnam-4432383210": {
+    "title": "SAP PS Consultant",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-backend-at-shopback-4281770937": {
+    "title": "Software Engineer Intern - Backend",
+    "company": "ShopBack",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/python-technical-lead-%242k5-%243k-at-fpt-software-4434966393": {
+    "title": "Python Technical Lead ($2k5-$3k)",
+    "company": "FPT Software",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/devops-engineer-at-fpt-software-4435022665": {
+    "title": "DevOps Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "24 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/embedded-engineer-middle-senior-at-fpt-software-4435398276": {
+    "title": "Embedded Engineer (Middle/Senior)",
+    "company": "FPT Software",
+    "sent_at": "2026-07-02T03:23:29.683657",
+    "post_date": "22 hours ago"
   }
 }
