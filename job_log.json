@@ -1,34 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4434415613": {
-    "title": "Java Developer",
-    "company": "DXC",
-    "sent_at": "2026-06-29T03:42:08.440555",
-    "post_date": "56 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/servicenow-fresher-english%2Bjavascript-at-dxc-technology-vietnam-4434227634": {
-    "title": "ServiceNow Fresher (English+Javascript)",
-    "company": "DXC",
-    "sent_at": "2026-06-29T03:42:08.440555",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/solution-engineer-at-worldquant-4406858657": {
-    "title": "Solution Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-06-29T03:42:08.440555",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/python-developer-at-worldquant-4406869605": {
-    "title": "Python Developer",
-    "company": "WorldQuant",
-    "sent_at": "2026-06-29T03:42:08.440555",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4433647255": {
-    "title": "Java Software Engineer",
-    "company": "FPT Software",
-    "sent_at": "2026-06-29T03:42:08.440555",
-    "post_date": "20 minutes ago"
-  },
   "https://linkedin.com/jobs/view/product-owner-utilities-at-zalopay-4434470661": {
     "title": "Product Owner (Utilities)",
     "company": "Zalopay",
@@ -364,5 +334,155 @@
     "company": "FPT Software",
     "sent_at": "2026-07-02T03:23:29.683657",
     "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fraud-risk-ai-enablement-lead-at-zalopay-4423359911": {
+    "title": "Fraud Risk & AI Enablement Lead",
+    "company": "Zalopay",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-engineer-at-zalopay-4410298905": {
+    "title": "Senior Data Engineer",
+    "company": "Zalopay",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "7 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/associate-product-owner-telco-at-zalopay-4435387299": {
+    "title": "Associate Product Owner (Telco)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/android-developer-at-nab-innovation-centre-vietnam-4436181822": {
+    "title": "Android Developer",
+    "company": "NAB",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/executive-assistant-at-nab-innovation-centre-vietnam-4436179490": {
+    "title": "Executive Assistant",
+    "company": "NAB",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-lead-software-engineer-ai-projects-at-momo-m-service-4429047151": {
+    "title": "Senior/Lead - Software Engineer, AI Projects",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-software-engineering-at-momo-m-service-4432788045": {
+    "title": "Lead - Software Engineering",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-machine-learning-engineer-at-momo-m-service-4399930995": {
+    "title": "(Senior) Machine Learning Engineer",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-ai-engineer-inference-at-momo-m-service-4424894667": {
+    "title": "Senior - AI Engineer, Inference",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-analytics-engineer-tech-at-momo-m-service-4429808733": {
+    "title": "Senior Analytics Engineer (Tech)",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/business-operations-executive-sme-payment-at-momo-m-service-4432345479": {
+    "title": "Business Operations Executive, SME Payment",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/senior-product-manager-ai-marketing-automation-at-momo-m-service-4432324519": {
+    "title": "Senior Product Manager - AI Marketing & Automation",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/middle-senior-data-scientist-risk-fraud-at-momo-m-service-4414866149": {
+    "title": "Middle/Senior Data Scientist, Risk/Fraud",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-executive-lead-total-rewards-at-momo-m-service-4424847082": {
+    "title": "Senior Executive/Lead - Total Rewards",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-data-engineer-at-zalo-4435035637": {
+    "title": "Lead Data Engineer",
+    "company": "Zalo",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/quantity-surveyor-at-vng-4417859289": {
+    "title": "Quantity Surveyor",
+    "company": "VNG",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/devops-engineer-at-dxc-technology-vietnam-4416799082": {
+    "title": "DevOps Engineer",
+    "company": "DXC",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/data-engineer-at-worldquant-4399222978": {
+    "title": "Data Engineer",
+    "company": "WorldQuant",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/technical-lead-senior-fullstack-developer-at-cmc-global-company-limited-4435049818": {
+    "title": "Technical Lead / Senior Fullstack Developer",
+    "company": "CMC",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/fullstack-frontend-engineer-java-at-hcltech-vietnam-4435059364": {
+    "title": "Fullstack Frontend Engineer (Java)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-backend-engineer-hcltech-x-anz-bank-at-hcltech-vietnam-4435038883": {
+    "title": "Senior Backend Engineer (HCLTech x ANZ Bank)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/hcl-tech-x-anz-bank-senior-quality-engineer-aem-platform-at-hcltech-vietnam-4435042538": {
+    "title": "[HCL Tech x ANZ Bank] - Senior Quality Engineer (AEM platform)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/infrastructure-engineer-at-endava-4435037864": {
+    "title": "Infrastructure Engineer",
+    "company": "Endava",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/infrastructure-engineer-at-endava-4435040554": {
+    "title": "Infrastructure Engineer",
+    "company": "Endava",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-infrastructure-engineer-at-endava-4435044520": {
+    "title": "Junior Infrastructure Engineer",
+    "company": "Endava",
+    "sent_at": "2026-07-03T02:46:37.912001",
+    "post_date": "19 hours ago"
   }
 }
