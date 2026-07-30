@@ -1,70 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/java-engineer-everyday-banking-at-nab-innovation-centre-vietnam-4428641132": {
-    "title": "Java Engineer - Everyday Banking",
-    "company": "NAB",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-java-engineer-cards-technology-at-nab-innovation-centre-vietnam-4415809801": {
-    "title": "Senior Java Engineer - Cards Technology",
-    "company": "NAB",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/solution-design-healthcare-at-nab-innovation-centre-vietnam-4397408937": {
-    "title": "Solution Design - Healthcare",
-    "company": "NAB",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-frontline-banking-at-nab-innovation-centre-vietnam-4439553539": {
-    "title": "Senior Site Reliability Engineer - Frontline Banking",
-    "company": "NAB",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-executive-lead-product-momo-travel-at-momo-m-service-4441890782": {
-    "title": "(Senior Executive/Lead) - Product, MoMo Travel",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4445336507": {
-    "title": "Java Developer",
-    "company": "DXC",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/fullstack-engineer-at-dxc-technology-vietnam-4445343250": {
-    "title": "Fullstack Engineer",
-    "company": "DXC",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/net-developer-at-dxc-technology-vietnam-4445338333": {
-    "title": ".NET Developer",
-    "company": "DXC",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "12 hours ago"
-  },
-  "https://linkedin.com/jobs/view/quantitative-researcher-at-worldquant-3567209448": {
-    "title": "Quantitative Researcher",
-    "company": "WorldQuant",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-c%2B%2B-software-developer-linux-at-endava-4426929675": {
-    "title": "Junior C++ Software Developer (Linux)",
-    "company": "Endava",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/junior-software-engineer-c-c%2B%2B-linux-at-endava-4444085264": {
-    "title": "Junior Software Engineer (C/C++, Linux)",
-    "company": "Endava",
-    "sent_at": "2026-07-26T02:34:52.849522",
-    "post_date": "1 day ago"
-  },
   "https://linkedin.com/jobs/view/worldquant-technology-talent-network-at-worldquant-4335475057": {
     "title": "WorldQuant Technology Talent Network",
     "company": "WorldQuant",
@@ -382,5 +316,137 @@
     "company": "HCLTech Vietnam",
     "sent_at": "2026-07-29T02:27:24.832380",
     "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/customer-service-collaborator-call-center-at-zalopay-4446563069": {
+    "title": "Customer Service Collaborator (Call Center)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/associate-product-owner-ota-at-zalopay-4444106949": {
+    "title": "Associate Product Owner (OTA)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-site-reliability-engineer-at-zalopay-4446539614": {
+    "title": "Senior Site Reliability Engineer",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/business-development-lead-sme-expansion-at-zalopay-4443230089": {
+    "title": "Business Development Lead (SME Expansion)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/senior-business-development-executive-retail-at-zalopay-4398353740": {
+    "title": "Senior Business Development Executive (Retail)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/partnership-growth-executive-mobility-services-at-zalopay-4443230504": {
+    "title": "Partnership Growth Executive (Mobility Services)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/product-owner-utilities-at-zalopay-4434470661": {
+    "title": "Product Owner (Utilities)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/online-media-lead-user-acquisition-at-zalopay-4446550936": {
+    "title": "Online Media Lead (User Acquisition)",
+    "company": "Zalopay",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-java-donation-at-momo-m-service-4443207436": {
+    "title": "Senior - Software Engineer, Java, Donation",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-ai-engineer-speech-at-zalo-4446046136": {
+    "title": "Senior AI Engineer (Speech)",
+    "company": "Zalo",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/talent-advisor-collaborator-zalo-at-zalo-4446037991": {
+    "title": "Talent Advisor Collaborator, Zalo",
+    "company": "Zalo",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/head-of-strategic-planning-at-zalo-4446562387": {
+    "title": "Head of Strategic Planning",
+    "company": "Zalo",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-dxc-technology-vietnam-4446555142": {
+    "title": "Java Software Engineer",
+    "company": "DXC",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-end-user-onsite-support-at-dxc-technology-vietnam-4436481088": {
+    "title": "Junior End User Onsite Support",
+    "company": "DXC",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "21 hours ago"
+  },
+  "https://linkedin.com/jobs/view/application-enhancement-lead-at-thoughtworks-4207931516": {
+    "title": "Application Enhancement Lead",
+    "company": "Thoughtworks",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/can-developer-embedded-at-hcltech-vietnam-4386859215": {
+    "title": "CAN Developer (Embedded)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/embedded-software-developer-can-diag-at-hcltech-vietnam-4386858301": {
+    "title": "Embedded Software Developer (CAN/Diag)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/embedded-software-engineer-c-c%2B%2B-at-hcltech-vietnam-4445492365": {
+    "title": "Embedded Software Engineer (C,C++)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/embedded-software-engineer-autosar-c%2B%2B-at-hcltech-vietnam-4402375277": {
+    "title": "Embedded Software Engineer (Autosar, C++)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/regional-crm-manager-at-shopback-4385725932": {
+    "title": "Regional CRM Manager",
+    "company": "ShopBack",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-spring-aws-at-kms-technology-inc-4444118125": {
+    "title": "Java Software Engineer (Spring, AWS)",
+    "company": "KMS Technology",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-java-software-engineer-java-spring-azure-aws-at-kms-technology-inc-4443686519": {
+    "title": "Senior Java Software Engineer (Java/Spring/Azure/AWS)",
+    "company": "KMS Technology",
+    "sent_at": "2026-07-30T02:09:31.950492",
+    "post_date": "19 hours ago"
   }
 }
