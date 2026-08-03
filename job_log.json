@@ -232,5 +232,23 @@
     "company": "CMC",
     "sent_at": "2026-08-02T02:34:31.437072",
     "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-qa-at-shopback-4350676078": {
+    "title": "Software Engineer Intern - QA",
+    "company": "ShopBack",
+    "sent_at": "2026-08-03T02:36:38.857950",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/python-developer-at-fpt-software-4447697018": {
+    "title": "Python Developer",
+    "company": "FPT Software",
+    "sent_at": "2026-08-03T02:36:38.857950",
+    "post_date": "15 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/embedded-automotive-dev-english-%2B-japanese-at-fpt-software-4447638702": {
+    "title": "Embedded/Automotive Dev | English + Japanese",
+    "company": "FPT Software",
+    "sent_at": "2026-08-03T02:36:38.857950",
+    "post_date": "16 hours ago"
   }
 }
