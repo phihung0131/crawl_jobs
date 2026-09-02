@@ -1,40 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/devops-engineer-ii-at-momo-m-service-4458077719": {
-    "title": "DevOps Engineer II",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/automation-tester-at-dxc-technology-vietnam-4451386456": {
-    "title": "Automation Tester",
-    "company": "DXC",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/frontend-developer-reactjs-at-dxc-technology-vietnam-4448822901": {
-    "title": "Frontend Developer (ReactJS)",
-    "company": "DXC",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/lead-software-developer-at-thoughtworks-4413886384": {
-    "title": "Lead Software Developer",
-    "company": "Thoughtworks",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-engineer-at-worldquant-4432810388": {
-    "title": "Software Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-c-c%2B%2B-software-engineer-at-endava-4450058210": {
-    "title": "Junior C/C++ Software Engineer",
-    "company": "Endava",
-    "sent_at": "2026-08-29T05:37:16.119978",
-    "post_date": "19 hours ago"
-  },
   "https://linkedin.com/jobs/view/java-developer-java-ee-at-dxc-technology-vietnam-4460825335": {
     "title": "Java Developer (Java EE)",
     "company": "DXC",
@@ -130,5 +94,11 @@
     "company": "Endava",
     "sent_at": "2026-09-01T03:33:08.893704",
     "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/python-developer-at-worldquant-4406869605": {
+    "title": "Python Developer",
+    "company": "WorldQuant",
+    "sent_at": "2026-09-02T02:51:16.036025",
+    "post_date": "14 hours ago"
   }
 }
