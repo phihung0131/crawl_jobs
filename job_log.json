@@ -1,22 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/java-developer-java-ee-at-dxc-technology-vietnam-4460825335": {
-    "title": "Java Developer (Java EE)",
-    "company": "DXC",
-    "sent_at": "2026-08-30T03:35:48.762078",
-    "post_date": "13 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-fullstack-software-engineer-node-js-react-typescript-kotlin-at-thoughtworks-4414443444": {
-    "title": "Senior Fullstack Software Engineer (Node.js, React, Typescript, Kotlin)",
-    "company": "Thoughtworks",
-    "sent_at": "2026-08-30T03:35:48.762078",
-    "post_date": "11 hours ago"
-  },
-  "https://linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4132130061": {
-    "title": "Full Stack Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-08-30T03:35:48.762078",
-    "post_date": "15 hours ago"
-  },
   "https://linkedin.com/jobs/view/frontend-developer-angularjs-at-dxc-technology-vietnam-4460834073": {
     "title": "Frontend Developer (AngularJS)",
     "company": "DXC",
@@ -100,5 +82,17 @@
     "company": "WorldQuant",
     "sent_at": "2026-09-02T02:51:16.036025",
     "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/technical-lead-java-angular-signing-bonus-60m-at-fpt-software-4461372717": {
+    "title": "Technical Lead (Java & Angular) - Signing bonus 60M",
+    "company": "FPT Software",
+    "sent_at": "2026-09-03T02:55:29.061346",
+    "post_date": "21 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/fpt-software-de-roles-up-to-75m-gross-at-fpt-software-4457947213": {
+    "title": "[FPT Software]_DE Roles_Up to 75M Gross",
+    "company": "FPT Software",
+    "sent_at": "2026-09-03T02:55:29.061346",
+    "post_date": "19 hours ago"
   }
 }
