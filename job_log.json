@@ -1,16 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/frontend-developer-angularjs-at-dxc-technology-vietnam-4460834073": {
-    "title": "Frontend Developer (AngularJS)",
-    "company": "DXC",
-    "sent_at": "2026-08-31T03:34:57.620169",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/d365fo-technical-consultant-at-cmc-global-company-limited-4459757257": {
-    "title": "D365FO Technical Consultant",
-    "company": "CMC",
-    "sent_at": "2026-08-31T03:34:57.620169",
-    "post_date": "37 minutes ago"
-  },
   "https://linkedin.com/jobs/view/head-of-technology-delivery-at-nab-innovation-centre-vietnam-4461079265": {
     "title": "Head of Technology Delivery",
     "company": "NAB",
@@ -94,5 +82,59 @@
     "company": "FPT Software",
     "sent_at": "2026-09-03T02:55:29.061346",
     "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-golang-at-zalopay-4462795334": {
+    "title": "Software Engineer (Golang)",
+    "company": "Zalopay",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/technical-support-engineer-at-zalopay-4462781944": {
+    "title": "Technical Support Engineer",
+    "company": "Zalopay",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-fullstack-engineer-java-focus-fraud-at-nab-innovation-centre-vietnam-4462756803": {
+    "title": "Senior Fullstack Engineer (Java focus) - Fraud",
+    "company": "NAB",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/manager-risk-enablement-and-delivery-at-nab-innovation-centre-vietnam-4462828193": {
+    "title": "Manager, Risk Enablement and Delivery",
+    "company": "NAB",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-lead-product-at-momo-m-service-4447381864": {
+    "title": "Senior/Lead - Product",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-team-leader-sme-merchant-risk-management-at-momo-m-service-4460777466": {
+    "title": "Senior Team Leader - SME Merchant Risk Management",
+    "company": "MoMo (M_Service)",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "14 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/lead-full-stack-engineer-java-at-dxc-technology-vietnam-4462747778": {
+    "title": "Lead Full Stack Engineer (Java)",
+    "company": "DXC",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-application-support-engineer-at-thoughtworks-4203205710": {
+    "title": "Lead Application Support Engineer",
+    "company": "Thoughtworks",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "9 hours ago"
+  },
+  "https://linkedin.com/jobs/view/it-project-manager-delivery-manager-%242k-%243k-at-fpt-software-4461379927": {
+    "title": "IT Project Manager/Delivery Manager ($2k-$3k)",
+    "company": "FPT Software",
+    "sent_at": "2026-09-04T02:54:29.456076",
+    "post_date": "22 hours ago"
   }
 }
