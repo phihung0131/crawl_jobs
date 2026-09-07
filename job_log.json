@@ -1,16 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/technical-lead-java-angular-signing-bonus-60m-at-fpt-software-4461372717": {
-    "title": "Technical Lead (Java & Angular) - Signing bonus 60M",
-    "company": "FPT Software",
-    "sent_at": "2026-09-03T02:55:29.061346",
-    "post_date": "21 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/fpt-software-de-roles-up-to-75m-gross-at-fpt-software-4457947213": {
-    "title": "[FPT Software]_DE Roles_Up to 75M Gross",
-    "company": "FPT Software",
-    "sent_at": "2026-09-03T02:55:29.061346",
-    "post_date": "19 hours ago"
-  },
   "https://linkedin.com/jobs/view/software-engineer-golang-at-zalopay-4462795334": {
     "title": "Software Engineer (Golang)",
     "company": "Zalopay",
@@ -148,5 +136,11 @@
     "company": "WorldQuant",
     "sent_at": "2026-09-06T02:55:00.771671",
     "post_date": "15 hours ago"
+  },
+  "https://linkedin.com/jobs/view/ad-operations-intern-collaborator-adtima-at-zalo-4462669819": {
+    "title": "Ad Operations Intern/Collaborator, Adtima",
+    "company": "Zalo",
+    "sent_at": "2026-09-07T02:52:26.578391",
+    "post_date": "1 day ago"
   }
 }
