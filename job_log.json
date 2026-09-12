@@ -1,268 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/data-analytics-consultant-performance-insights-at-nab-innovation-centre-vietnam-4464090385": {
-    "title": "Data Analytics Consultant - Performance & Insights",
-    "company": "NAB",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-machine-learning-engineer-at-momo-m-service-4399930995": {
-    "title": "(Senior) Machine Learning Engineer",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/team-leader-business-operations-online-payment-at-momo-m-service-4461890944": {
-    "title": "Team Leader- Business Operations, Online Payment",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-team-leader-sme-merchant-risk-management-at-momo-m-service-4460777466": {
-    "title": "Senior Team Leader - SME Merchant Risk Management",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/middle-senior-data-scientist-risk-fraud-at-momo-m-service-4414866149": {
-    "title": "Middle/Senior Data Scientist, Risk/Fraud",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/technical-project-manager-at-spartan-4462939181": {
-    "title": "Technical Project Manager",
-    "company": "Spartan",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-senior-site-reliability-engineer-zalo-at-zalo-4464318163": {
-    "title": "Lead/Senior Site Reliability Engineer, Zalo",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-data-engineer-adtima-at-zalo-4462947032": {
-    "title": "Senior Data Engineer, Adtima",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/talent-acquisition-manager-at-zalo-4464084749": {
-    "title": "Talent Acquisition Manager",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/product-manager-monetization-zalo-at-zalo-4464326090": {
-    "title": "Product Manager (Monetization), Zalo",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/head-of-strategic-planning-at-zalo-4464425315": {
-    "title": "Head of Strategic Planning",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "58 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/senior-legal-specialist-zalo-at-zalo-4464068740": {
-    "title": "Senior Legal Specialist, Zalo",
-    "company": "Zalo",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-developer-at-dxc-technology-vietnam-4464073835": {
-    "title": "Java Developer",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-software-engineer-mandarin-speaking-at-dxc-technology-vietnam-4464080790": {
-    "title": "Java Software Engineer (Mandarin Speaking)",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-ph%E1%BA%A7n-m%E1%BB%81m-n3-n2-ti%E1%BA%BFng-nh%E1%BA%ADt-at-dxc-technology-vietnam-4464073838": {
-    "title": "Kỹ Sư Phần Mềm (N3/N2 Tiếng Nhật)",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/software-test-engineer-at-dxc-technology-vietnam-4464075834": {
-    "title": "Software Test Engineer",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-qa-engineer-at-dxc-technology-vietnam-4464428367": {
-    "title": "Junior QA Engineer",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "52 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/frontend-developer-angular-at-dxc-technology-vietnam-4464074749": {
-    "title": "Frontend Developer (Angular)",
-    "company": "DXC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/wqbrain-user-success-specialist-at-worldquant-4464087829": {
-    "title": "WQBRAIN User Success Specialist",
-    "company": "WorldQuant",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/python-engineer-at-worldquant-4399823450": {
-    "title": "Python Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/worldquant-technology-talent-network-at-worldquant-4335475057": {
-    "title": "WorldQuant Technology Talent Network",
-    "company": "WorldQuant",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4378791891": {
-    "title": "Full Stack Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "14 hours ago"
-  },
-  "https://linkedin.com/jobs/view/manual-tester-middle-senior-level-at-cmc-global-company-limited-4462978836": {
-    "title": "Manual Tester (Middle/Senior level)",
-    "company": "CMC",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "2 hours ago"
-  },
-  "https://linkedin.com/jobs/view/embedded-c-c%2B%2B-at-fpt-software-4462902970": {
-    "title": "Embedded C/C++",
-    "company": "FPT Software",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "20 hours ago"
-  },
-  "https://linkedin.com/jobs/view/ai-engineer-upto-70m-at-fpt-software-4462903557": {
-    "title": "AI engineer _ upto 70M",
-    "company": "FPT Software",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/data-engineer-at-fpt-software-4462910603": {
-    "title": "Data Engineer",
-    "company": "FPT Software",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/net-c%23-developer-senior-lead-at-fpt-software-4463204040": {
-    "title": ".NET/C# Developer (Senior/Lead)",
-    "company": "FPT Software",
-    "sent_at": "2026-09-08T03:02:28.888388",
-    "post_date": "35 minutes ago"
-  },
-  "https://linkedin.com/jobs/view/manager-data-reporting-insights-at-nab-innovation-centre-vietnam-4464463255": {
-    "title": "Manager, Data Reporting & Insights",
-    "company": "NAB",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-consultant-data-engineer-at-nab-innovation-centre-vietnam-4464466130": {
-    "title": "Senior Consultant, Data Engineer",
-    "company": "NAB",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/credit-risk-analyst-data-analytics-at-momo-m-service-4462264550": {
-    "title": "Credit Risk Analyst (Data Analytics)",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-product-executive-ai-assistant-at-momo-m-service-4453865337": {
-    "title": "Senior - Product Executive (AI Assistant)",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-media-specialist-at-momo-m-service-4462261641": {
-    "title": "Senior Media Specialist",
-    "company": "MoMo (M_Service)",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-software-engineer-zing-mp3-at-zalo-4463235225": {
-    "title": "Lead Software Engineer, Zing MP3",
-    "company": "Zalo",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/account-collaborator-adtima-at-zalo-4463270346": {
-    "title": "Account Collaborator, Adtima",
-    "company": "Zalo",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/qa-engineer-servicenow-tester-at-dxc-technology-vietnam-4464450000": {
-    "title": "QA Engineer (ServiceNow Tester)",
-    "company": "DXC",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "21 hours ago"
-  },
-  "https://linkedin.com/jobs/view/business-analyst-at-dxc-technology-vietnam-4464450373": {
-    "title": "Business Analyst",
-    "company": "DXC",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "21 hours ago"
-  },
-  "https://linkedin.com/jobs/view/business-analyst-at-dxc-technology-vietnam-4464420530": {
-    "title": "Business Analyst",
-    "company": "DXC",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "23 hours ago"
-  },
-  "https://linkedin.com/jobs/view/senior-software-engineer-at-worldquant-4400669874": {
-    "title": "Senior Software Engineer",
-    "company": "WorldQuant",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "15 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-backend-developer-require-experience-with-ai-tools-at-hcltech-vietnam-4463246135": {
-    "title": "Java Backend Developer (Require experience with AI tools)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/backend-developer-java-%2B-ai-tools-at-hcltech-vietnam-4463229163": {
-    "title": "Backend Developer (Java + AI Tools)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/embedded-software-integration-engineer-at-hcltech-vietnam-4463254390": {
-    "title": "Embedded Software Integration Engineer",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/python-developer-at-fpt-software-4463270119": {
-    "title": "Python Developer",
-    "company": "FPT Software",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "17 hours ago"
-  },
-  "https://linkedin.com/jobs/view/salesforce-developer-3-yoe-%2B-upto-80m-at-fpt-software-4463228640": {
-    "title": "Salesforce Developer _3 yoe + _ upto 80M",
-    "company": "FPT Software",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "19 hours ago"
-  },
-  "https://linkedin.com/jobs/view/junior-software-engineer-c-c%2B%2B-linux-at-endava-4463224185": {
-    "title": "Junior Software Engineer (C/C++, Linux)",
-    "company": "Endava",
-    "sent_at": "2026-09-09T03:03:25.793076",
-    "post_date": "22 hours ago"
-  },
   "https://linkedin.com/jobs/view/associate-devsecops-dast-api-security-posture-at-nab-innovation-centre-vietnam-4463592464": {
     "title": "Associate, DevSecOps - DAST & API Security Posture",
     "company": "NAB",
@@ -466,5 +202,47 @@
     "company": "Endava",
     "sent_at": "2026-09-11T03:00:02.127756",
     "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-engineer-adtima-at-zalo-4466068157": {
+    "title": "Senior Data Engineer, Adtima",
+    "company": "Zalo",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "16 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-consultant-software-development-at-thoughtworks-4207936037": {
+    "title": "Lead Consultant, Software Development",
+    "company": "Thoughtworks",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "11 hours ago"
+  },
+  "https://linkedin.com/jobs/view/dynamic-365-fo-developer-technical-consultant-at-cmc-global-company-limited-4464840934": {
+    "title": "Dynamic 365 FO Developer/Technical Consultant",
+    "company": "CMC",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-backend-developer-require-experience-with-ai-tools-at-hcltech-vietnam-4463246135": {
+    "title": "Java Backend Developer (Require experience with AI tools)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/backend-developer-java-%2B-ai-tools-at-hcltech-vietnam-4463229163": {
+    "title": "Backend Developer (Java + AI Tools)",
+    "company": "HCLTech Vietnam",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "1 day ago"
+  },
+  "https://linkedin.com/jobs/view/ai-engineer-mid-senior-lead-at-fpt-software-4464853318": {
+    "title": "AI Engineer (Mid/Senior/Lead)",
+    "company": "FPT Software",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/cloud-linux-kernel-developer-at-endava-4464848955": {
+    "title": "Cloud Linux Kernel Developer",
+    "company": "Endava",
+    "sent_at": "2026-09-12T03:06:47.971943",
+    "post_date": "18 hours ago"
   }
 }
