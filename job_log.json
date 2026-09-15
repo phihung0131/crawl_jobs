@@ -1,46 +1,4 @@
 {
-  "https://linkedin.com/jobs/view/senior-data-engineer-adtima-at-zalo-4466068157": {
-    "title": "Senior Data Engineer, Adtima",
-    "company": "Zalo",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "16 hours ago"
-  },
-  "https://linkedin.com/jobs/view/lead-consultant-software-development-at-thoughtworks-4207936037": {
-    "title": "Lead Consultant, Software Development",
-    "company": "Thoughtworks",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "11 hours ago"
-  },
-  "https://linkedin.com/jobs/view/dynamic-365-fo-developer-technical-consultant-at-cmc-global-company-limited-4464840934": {
-    "title": "Dynamic 365 FO Developer/Technical Consultant",
-    "company": "CMC",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "18 hours ago"
-  },
-  "https://linkedin.com/jobs/view/java-backend-developer-require-experience-with-ai-tools-at-hcltech-vietnam-4463246135": {
-    "title": "Java Backend Developer (Require experience with AI tools)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/backend-developer-java-%2B-ai-tools-at-hcltech-vietnam-4463229163": {
-    "title": "Backend Developer (Java + AI Tools)",
-    "company": "HCLTech Vietnam",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "1 day ago"
-  },
-  "https://linkedin.com/jobs/view/ai-engineer-mid-senior-lead-at-fpt-software-4464853318": {
-    "title": "AI Engineer (Mid/Senior/Lead)",
-    "company": "FPT Software",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "22 hours ago"
-  },
-  "https://linkedin.com/jobs/view/cloud-linux-kernel-developer-at-endava-4464848955": {
-    "title": "Cloud Linux Kernel Developer",
-    "company": "Endava",
-    "sent_at": "2026-09-12T03:06:47.971943",
-    "post_date": "18 hours ago"
-  },
   "https://linkedin.com/jobs/view/lead-systems-support-engineer-at-thoughtworks-4438300297": {
     "title": "Lead Systems Support Engineer",
     "company": "Thoughtworks",
@@ -58,5 +16,131 @@
     "company": "KMS Technology",
     "sent_at": "2026-09-14T03:21:29.301112",
     "post_date": "1 hour ago"
+  },
+  "https://linkedin.com/jobs/view/devops-enginer-middle-at-spartan-4466162283": {
+    "title": "DevOps Enginer (Middle)",
+    "company": "Spartan",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "26 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/senior-analytics-engineer-zalo-at-zalo-4467046188": {
+    "title": "Senior Analytics Engineer, Zalo",
+    "company": "Zalo",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-data-analyst-user-growth-open-for-senior-at-zalo-4466158841": {
+    "title": "Lead Data Analyst, User Growth (Open for Senior)",
+    "company": "Zalo",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "59 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/technical-manager-zalo-pc-web-at-zalo-4467037198": {
+    "title": "Technical Manager, Zalo PC/Web",
+    "company": "Zalo",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-planning-report-analyst-product-ba-background-at-zalo-4467026209": {
+    "title": "Senior Planning & Report Analyst (Product/BA Background)",
+    "company": "Zalo",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "23 hours ago"
+  },
+  "https://linkedin.com/jobs/view/content-quality-control-collaborator-zalo-video-at-zalo-4466167214": {
+    "title": "Content Quality Control Collaborator, Zalo Video",
+    "company": "Zalo",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "3 minutes ago"
+  },
+  "https://linkedin.com/jobs/view/middle-java-software-engineer-at-dxc-technology-vietnam-4455583781": {
+    "title": "Middle Java Software Engineer",
+    "company": "DXC",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/full-stack-engineer-java%2Bangular-at-dxc-technology-vietnam-4467220205": {
+    "title": "Full Stack Engineer (Java+Angular)",
+    "company": "DXC",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "11 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-software-engineer-java-at-dxc-technology-vietnam-4455586800": {
+    "title": "Senior Software Engineer (Java)",
+    "company": "DXC",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-java-at-dxc-technology-vietnam-4436462763": {
+    "title": "Software Engineer (Java)",
+    "company": "DXC",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/sql-developer-at-dxc-technology-vietnam-4467210325": {
+    "title": "SQL Developer",
+    "company": "DXC",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "11 hours ago"
+  },
+  "https://linkedin.com/jobs/view/software-engineer-intern-qa-at-shopback-4350676078": {
+    "title": "Software Engineer Intern - QA",
+    "company": "ShopBack",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/java-software-engineer-at-fpt-software-4465725225": {
+    "title": "Java Software Engineer",
+    "company": "FPT Software",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "20 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-engineer-google-cloud-upto-75m-at-fpt-software-4465721395": {
+    "title": "Senior Data Engineer (Google Cloud) Upto 75M",
+    "company": "FPT Software",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/join-our-ai-engineering-team-llm-agentic-ai-middle-senior-global-projects-at-fpt-software-4457949278": {
+    "title": "Join Our AI Engineering Team | LLM & Agentic AI | Middle-Senior | Global Projects",
+    "company": "FPT Software",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "14 hours ago"
+  },
+  "https://linkedin.com/jobs/view/senior-data-engineer-aws-snowflake-upto-70m-at-fpt-software-4465723438": {
+    "title": "Senior Data Engineer (AWS, Snowflake) Upto 70M",
+    "company": "FPT Software",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "18 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-ai-engineer-%E2%80%93-quality-engineering-at-kms-technology-inc-4467035424": {
+    "title": "Lead AI Engineer – Quality Engineering",
+    "company": "KMS Technology",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "22 hours ago"
+  },
+  "https://linkedin.com/jobs/view/lead-ai-engineer-%E2%80%93-quality-engineering-at-kms-technology-inc-4465272119": {
+    "title": "Lead AI Engineer – Quality Engineering",
+    "company": "KMS Technology",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "2 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-software-engineer-c-c%2B%2B-linux-at-endava-4465726639": {
+    "title": "Junior Software Engineer (C/C++, Linux)",
+    "company": "Endava",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "17 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-software-engineer-c-python-cloud-at-endava-4465732321": {
+    "title": "Junior Software Engineer (C/Python, Cloud)",
+    "company": "Endava",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "19 hours ago"
+  },
+  "https://linkedin.com/jobs/view/junior-infrastructure-engineer-at-endava-4456862359": {
+    "title": "Junior Infrastructure Engineer",
+    "company": "Endava",
+    "sent_at": "2026-09-15T03:23:08.695117",
+    "post_date": "17 hours ago"
   }
 }
